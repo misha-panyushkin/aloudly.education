@@ -1,9 +1,3 @@
-**Dear friends,**
+# ![](https://raw.githubusercontent.com/misha-panyushkin/aloudly.education/master/web/public/materials/favicon.ico "") aloudly.education
 
-I have my CV published on the web. 
-Provide you with a link to find it: http://mi.panyushk.in/
-
-Please contact me in any case!
-
-Kind regards,
-Misha
+##### We are bringing cutting edge technology to the academic world. Creating an unique technique for distinguish and eliminating human mispronunciations. It's a startup and we are moving forward every day.
