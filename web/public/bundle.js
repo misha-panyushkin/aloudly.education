@@ -101,7 +101,7 @@
 
 	var _Home2 = _interopRequireDefault(_Home);
 
-	var _reduxThunk = __webpack_require__(288);
+	var _reduxThunk = __webpack_require__(298);
 
 	var _reduxThunk2 = _interopRequireDefault(_reduxThunk);
 
@@ -109,13 +109,13 @@
 
 	var _API2 = _interopRequireDefault(_API);
 
-	__webpack_require__(289);
+	__webpack_require__(299);
 
 	var _bemCn = __webpack_require__(287);
 
 	var _bemCn2 = _interopRequireDefault(_bemCn);
 
-	var _es6Promise = __webpack_require__(393);
+	var _es6Promise = __webpack_require__(403);
 
 	var _es6Promise2 = _interopRequireDefault(_es6Promise);
 
@@ -187,7 +187,7 @@
 
 
 	// module
-	exports.push([module.id, "/** Ultra Light */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 100;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff\");\n}\n/** Thin */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 200;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff\");\n}\n/** Regular */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 400;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff\");\n}\n/** Medium */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 500;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff\");\n}\n/** Semi Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 600;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff\");\n}\n/** Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 700;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff\");\n}\nbody {\n  margin: 0;\n  padding: 0;\n}\n.painted {\n  background-color: #fff;\n  color: #949494;\n}\n.emphasized {\n  color: #383838;\n}\nh1.cHeader {\n  font-size: 55px;\n  font-weight: 600;\n}\nh2.cHeader {\n  font-size: 2.5em;\n  font-weight: 100;\n}\nh3.cHeader {\n  font-size: 2.0em;\n  font-weight: 100;\n}\nh4.cHeader {\n  font-size: 1.4em;\n  font-weight: 100;\n}\nh5.cHeader {\n  font-size: 1.1em;\n  font-weight: 100;\n}\nhgroup {\n  margin: 0 0 20px 0;\n}\nhgroup h1,\nhgroup h2,\nhgroup h3,\nhgroup h4,\nhgroup h5,\nhgroup h6 {\n  margin: 0;\n}\n.cPaper {\n  font-style: normal;\n  font-family: \"San Francisco\", \"Myriad Set Pro\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif;\n  line-height: 1.45;\n  font-size: 1em;\n  font-weight: 200;\n  letter-spacing: .3px;\n  word-spacing: 1px;\n  font-size: 100%;\n}\n.cParagraph {\n  line-height: 1.47;\n  font-size: 1em;\n  font-weight: 300;\n  margin: 25px 0;\n}\n.cParagraph.capital::first-letter,\n.cParagraph:not(.plain):first-of-type::first-letter {\n  padding-left: 1em;\n  color: #e23a3a;\n  font-weight: 300;\n}\n.cParagraph:first-of-type {\n  margin-top: 0;\n}\n.cParagraph:last-of-type {\n  margin-bottom: 0;\n}\n.unselectable {\n  -moz-user-select: none;\n  -webkit-user-select: none;\n  -o-user-select: none;\n  -ms-user-select: none;\n      user-select: none;\n}\n.selectable {\n  -moz-user-select: auto;\n  -webkit-user-select: auto;\n  -o-user-select: auto;\n  -ms-user-select: auto;\n      user-select: auto;\n}\n", ""]);
+	exports.push([module.id, "/** Ultra Light */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 100;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff\");\n}\n/** Thin */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 200;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff\");\n}\n/** Regular */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 400;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff\");\n}\n/** Medium */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 500;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff\");\n}\n/** Semi Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 600;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff\");\n}\n/** Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 700;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff\");\n}\nbody {\n  margin: 0;\n  padding: 0;\n}\n.painted {\n  background-color: #fff;\n  color: #949494;\n}\n.emphasized {\n  color: #383838;\n}\nh1.cHeader {\n  font-size: 3.44em;\n  font-weight: 600;\n}\nh2.cHeader {\n  font-size: 2.5em;\n  font-weight: 100;\n}\nh3.cHeader {\n  font-size: 2.0em;\n  font-weight: 100;\n}\nh4.cHeader {\n  font-size: 1.4em;\n  font-weight: 100;\n}\nh5.cHeader {\n  font-size: 1.1em;\n  font-weight: 100;\n}\nhgroup {\n  margin: 0 0 20px 0;\n}\nhgroup h1,\nhgroup h2,\nhgroup h3,\nhgroup h4,\nhgroup h5,\nhgroup h6 {\n  margin: 0;\n}\n.cPaper {\n  font-style: normal;\n  font-family: \"San Francisco\", \"Myriad Set Pro\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif;\n  line-height: 1.45;\n  font-size: 1em;\n  font-weight: 200;\n  letter-spacing: .3px;\n  word-spacing: 1px;\n  font-size: 100%;\n}\n.cParagraph {\n  line-height: 1.47;\n  font-size: 1em;\n  font-weight: 300;\n  margin: 25px 0;\n}\n.cParagraph.capital::first-letter,\n.cParagraph:not(.plain):first-of-type::first-letter {\n  padding-left: 1em;\n  color: #e23a3a;\n  font-weight: 300;\n}\n.cParagraph:first-of-type {\n  margin-top: 0;\n}\n.cParagraph:last-of-type {\n  margin-bottom: 0;\n}\n.unselectable {\n  -moz-user-select: none;\n  -webkit-user-select: none;\n  -o-user-select: none;\n  -ms-user-select: none;\n      user-select: none;\n}\n.selectable {\n  -moz-user-select: auto;\n  -webkit-user-select: auto;\n  -o-user-select: auto;\n  -ms-user-select: auto;\n      user-select: auto;\n}\n", ""]);
 
 	// exports
 
@@ -50718,6 +50718,14 @@
 
 	var _bemCn2 = _interopRequireDefault(_bemCn);
 
+	var _RealTimeAudioBox = __webpack_require__(288);
+
+	var _RealTimeAudioBox2 = _interopRequireDefault(_RealTimeAudioBox);
+
+	var _Info = __webpack_require__(295);
+
+	var _Info2 = _interopRequireDefault(_Info);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -50746,41 +50754,8 @@
 	                'section',
 	                {
 	                    className: this.block() },
-	                _react2.default.createElement(
-	                    'hgroup',
-	                    { className: this.block('header') },
-	                    _react2.default.createElement('img', { className: 'logo', src: '/materials/images/redenergy@2x.png' }),
-	                    _react2.default.createElement(
-	                        'h1',
-	                        { className: 'cHeader title' },
-	                        'aloudly'
-	                    ),
-	                    _react2.default.createElement(
-	                        'h1',
-	                        { className: 'cHeader dot' },
-	                        '.'
-	                    ),
-	                    _react2.default.createElement(
-	                        'h1',
-	                        { className: 'cHeader' },
-	                        'educ',
-	                        _react2.default.createElement(
-	                            'span',
-	                            { className: 'letterA' },
-	                            'a'
-	                        ),
-	                        'tion'
-	                    )
-	                ),
-	                _react2.default.createElement(
-	                    'article',
-	                    { className: this.block('description') },
-	                    _react2.default.createElement(
-	                        'p',
-	                        { className: 'cParagraph paragraph' },
-	                        'We bring advanced technologies to the academic world. On the way to Create an unique technique for distinguishing and eliminating human speech defects and mispronunciations. It\'s a startup and we are moving forward every day.'
-	                    )
-	                )
+	                _react2.default.createElement(_RealTimeAudioBox2.default, null),
+	                _react2.default.createElement(_Info2.default, null)
 	            );
 	        }
 	    }]);
@@ -50825,7 +50800,7 @@
 
 
 	// module
-	exports.push([module.id, ".Home {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: column nowrap;\n      flex-flow: column nowrap;\n  -ms-flex-align: center;\n      align-items: center;\n  -ms-flex-pack: center;\n      justify-content: center;\n  height: 100%;\n  width: 100%;\n}\n.Home__header {\n  padding: 0 10px;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: row nowrap;\n      flex-flow: row nowrap;\n  -ms-flex-align: center;\n      align-items: center;\n}\n.Home__header .logo {\n  width: 28px;\n  height: 28px;\n}\n.Home__header .title {\n  padding-left: 13px;\n}\n.Home__header .title::first-letter {\n  color: #d23d40;\n}\n.Home__header .dot {\n  color: #d23d40;\n}\n.Home__header .letterA {\n  color: #d23d40;\n}\n.Home__description {\n  max-width: 500px;\n  text-align: justify;\n  padding: 0 10px;\n}\n", ""]);
+	exports.push([module.id, ".Home {\n  height: 100%;\n  width: 100%;\n}\n", ""]);
 
 	// exports
 
@@ -51135,6 +51110,2019 @@
 
 /***/ },
 /* 288 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = undefined;
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	__webpack_require__(289);
+
+	var _react = __webpack_require__(14);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _classnames = __webpack_require__(286);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _bemCn = __webpack_require__(287);
+
+	var _bemCn2 = _interopRequireDefault(_bemCn);
+
+	var _Sound2CanvasLibrary = __webpack_require__(291);
+
+	var _Sound2CanvasLibrary2 = _interopRequireDefault(_Sound2CanvasLibrary);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var RED = 'rgb(255, 0, 0)';
+	var BLACK = 'rgb(0, 0, 0)';
+
+	var RealTimeAudioBox = function (_Component) {
+	    _inherits(RealTimeAudioBox, _Component);
+
+	    function RealTimeAudioBox(props) {
+	        _classCallCheck(this, RealTimeAudioBox);
+
+	        var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(RealTimeAudioBox).call(this, props));
+
+	        _this.boxClassName = 'RealTimeAudioBox';
+	        _this.block = (0, _bemCn2.default)(_this.boxClassName);
+	        return _this;
+	    }
+
+	    _createClass(RealTimeAudioBox, [{
+	        key: 'render',
+	        value: function render() {
+	            var recording = this.props.recording;
+
+
+	            return _react2.default.createElement(
+	                'section',
+	                { className: this.block() },
+	                _react2.default.createElement('canvas', { className: this.block('canvas'),
+	                    ref: 'visualStage',
+	                    height: '100',
+	                    width: '1024' })
+	            );
+	        }
+	    }, {
+	        key: 'componentDidMount',
+	        value: function componentDidMount() {
+	            var recording = this.props.recording;
+
+	            this._S2CL = new _Sound2CanvasLibrary2.default(this.refs.visualStage, 'sinewave', {
+	                strokeColor: recording ? RED : BLACK
+	            });
+	        }
+	    }, {
+	        key: 'componentWillReceiveProps',
+	        value: function componentWillReceiveProps(nextProps) {
+	            var recording = nextProps.recording;
+
+	            this._S2CL.setParameters({
+	                strokeColor: recording ? RED : BLACK
+	            });
+	        }
+	    }]);
+
+	    return RealTimeAudioBox;
+	}(_react.Component);
+
+	exports.default = RealTimeAudioBox;
+
+/***/ },
+/* 289 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(290);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(13)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../../node_modules/css-loader/index.js!./../../../../node_modules/autoprefixer-loader/index.js?{browsers:[\"last 2 version\"]}!./../../../../node_modules/less-loader/index.js!./RealTimeAudioBox.less", function() {
+				var newContent = require("!!./../../../../node_modules/css-loader/index.js!./../../../../node_modules/autoprefixer-loader/index.js?{browsers:[\"last 2 version\"]}!./../../../../node_modules/less-loader/index.js!./RealTimeAudioBox.less");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 290 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(12)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".RealTimeAudioBox {\n  width: 100%;\n  z-index: -1;\n  position: absolute;\n  left: 0px;\n  top: 50%;\n  margin-top: -60px;\n}\n.RealTimeAudioBox__canvas {\n  width: 100%;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 291 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = undefined;
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _lodash = __webpack_require__(275);
+
+	var _lodash2 = _interopRequireDefault(_lodash);
+
+	__webpack_require__(292);
+
+	var _UserMedia = __webpack_require__(293);
+
+	var _UserMedia2 = _interopRequireDefault(_UserMedia);
+
+	var _AudioContext = __webpack_require__(294);
+
+	var _AudioContext2 = _interopRequireDefault(_AudioContext);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	var Sound2CanvasLibrary = function () {
+	    function Sound2CanvasLibrary(canvas, visualizationType, extraParams) {
+	        _classCallCheck(this, Sound2CanvasLibrary);
+
+	        Object.assign(this, {
+	            canvas: canvas,
+	            context: canvas.getContext("2d"),
+	            visualizationType: visualizationType
+	        }, extraParams);
+	        this.getMedia();
+	    }
+
+	    _createClass(Sound2CanvasLibrary, [{
+	        key: 'getMedia',
+	        value: function getMedia() {
+	            var _this = this;
+
+	            _UserMedia2.default.then(function (stream) {
+	                _this.analyser = _AudioContext2.default.createAnalyser();
+	                // this.distortion = AUDIO_CONTEXT.createWaveShaper();
+	                // this.gainNode = AUDIO_CONTEXT.createGain();
+	                // this.biquadFilter = AUDIO_CONTEXT.createBiquadFilter();
+
+	                _this.source = _AudioContext2.default.createMediaStreamSource(stream);
+	                _this.source.connect(_this.analyser);
+	                // this.analyser.connect(this.distortion);
+	                // this.analyser.minDecibels = -90;
+	                // this.analyser.maxDecibels = -10;
+	                // this.analyser.smoothingTimeConstant = 0.85;
+	                // this.distortion.connect(this.biquadFilter);
+	                // this.biquadFilter.connect(this.gainNode);
+	                // this.gainNode.connect(AUDIO_CONTEXT.destination); // connecting the different audio graph nodes together
+
+	                _this.visualize();
+	            }).catch(function (error) {
+	                console.error(error);
+	            });
+	        }
+	    }, {
+	        key: 'visualize',
+	        value: function visualize() {
+	            if (this.stoped) {
+	                return;
+	            }
+
+	            this.WIDTH = this.canvas.width;
+	            this.HEIGHT = this.canvas.height;
+	            switch (this.visualizationType) {
+
+	                case 'sinewave':
+	                    this.analyser.fftSize = 2048;
+	                    this.bufferLength = this.analyser.frequencyBinCount;
+	                    this.dataArray = new Uint8Array(this.bufferLength);
+
+	                    this.context.clearRect(0, 0, this.WIDTH, this.HEIGHT);
+
+	                    this.drawSinewave();
+
+	                    break;
+
+	                case 'frequencyBars':
+	                    this.analyser.fftSize = 256;
+	                    this.bufferLength = this.analyser.frequencyBinCount;
+	                    this.dataArray = new Uint8Array(this.bufferLength);
+
+	                    this.context.clearRect(0, 0, this.WIDTH, this.HEIGHT);
+
+	                    this.drawFrequencyBars();
+
+	                    break;
+	            }
+	        }
+	    }, {
+	        key: 'drawSinewave',
+	        value: function drawSinewave() {
+	            var _this2 = this;
+
+	            if (this.stoped) {
+	                return;
+	            }
+
+	            requestAnimationFrame(function () {
+	                return _this2.drawSinewave();
+	            });
+
+	            this.analyser.getByteTimeDomainData(this.dataArray);
+
+	            var maxValue = _lodash2.default.max(this.dataArray);
+	            var alfa = (maxValue - 128) / 127;
+
+	            this.context.fillStyle = 'rgba(255, 255, 255, 1)';
+	            this.context.fillRect(0, 0, this.WIDTH, this.HEIGHT);
+
+	            this.context.lineWidth = 2;
+	            this.context.strokeStyle = 'rgba(210, 61, 64, ' + alfa + ')';
+
+	            this.context.beginPath();
+
+	            var sliceWidth = this.WIDTH * 1.0 / this.bufferLength;
+	            var x = 0;
+
+	            for (var i = 0; i < this.bufferLength; i++) {
+
+	                var v = this.dataArray[i] / 128.0;
+	                var y = v * this.HEIGHT / 2;
+
+	                if (i === 0) {
+	                    this.context.moveTo(x, y);
+	                } else {
+	                    this.context.lineTo(x, y);
+	                }
+
+	                x += sliceWidth;
+	            }
+
+	            this.context.lineTo(this.WIDTH, this.HEIGHT / 2);
+	            this.context.stroke();
+	        }
+	    }, {
+	        key: 'drawFrequencyBars',
+	        value: function drawFrequencyBars() {
+	            var _this3 = this;
+
+	            if (this.stoped) {
+	                return;
+	            }
+
+	            requestAnimationFrame(function () {
+	                return _this3.drawFrequencyBars();
+	            });
+
+	            this.analyser.getByteFrequencyData(this.dataArray);
+
+	            this.context.fillStyle = 'rgba(255, 255, 255, 1)';
+	            this.context.fillRect(0, 0, this.WIDTH, this.HEIGHT);
+
+	            var barWidth = this.WIDTH / this.bufferLength * 2.5;
+	            var barHeight = void 0;
+	            var x = 0;
+
+	            for (var i = 0; i < this.bufferLength; i++) {
+	                barHeight = this.dataArray[i]; // + 140)*2;
+	                this.context.fillStyle = 'rgb(' + (barHeight + 100) + ',50,50)';
+	                this.context.fillRect(x, this.HEIGHT - barHeight / 2, barWidth, barHeight / 2);
+	                x += barWidth + 1;
+	            }
+	        }
+	    }, {
+	        key: 'setParameters',
+	        value: function setParameters(extraParams) {
+	            Object.assign(this, extraParams);
+	        }
+	    }, {
+	        key: 'stop',
+	        value: function stop() {
+	            this.stoped = true;
+	        }
+	    }]);
+
+	    return Sound2CanvasLibrary;
+	}();
+
+	exports.default = Sound2CanvasLibrary;
+
+/***/ },
+/* 292 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/*
+	 *  Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
+	 *
+	 *  Use of this source code is governed by a BSD-style license
+	 *  that can be found in the LICENSE file in the root of the source
+	 *  tree.
+	 */
+
+	/* More information about these options at jshint.com/docs/options */
+	/* jshint browser: true, camelcase: true, curly: true, devel: true,
+	   eqeqeq: true, forin: false, globalstrict: true, node: true,
+	   quotmark: single, undef: true, unused: strict */
+	/* global mozRTCIceCandidate, mozRTCPeerConnection, Promise,
+	mozRTCSessionDescription, webkitRTCPeerConnection, MediaStreamTrack */
+	/* exported trace,requestUserMedia */
+
+	'use strict';
+
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+	var getUserMedia = null;
+	var attachMediaStream = null;
+	var reattachMediaStream = null;
+	var webrtcDetectedBrowser = null;
+	var webrtcDetectedVersion = null;
+	var webrtcMinimumVersion = null;
+	var webrtcUtils = {
+	  log: function log() {
+	    // suppress console.log output when being included as a module.
+	    if (true) {
+	      return;
+	    }
+	    console.log.apply(console, arguments);
+	  },
+	  extractVersion: function extractVersion(uastring, expr, pos) {
+	    var match = uastring.match(expr);
+	    return match && match.length >= pos && parseInt(match[pos]);
+	  }
+	};
+
+	function trace(text) {
+	  // This function is used for logging.
+	  if (text[text.length - 1] === '\n') {
+	    text = text.substring(0, text.length - 1);
+	  }
+	  if (window.performance) {
+	    var now = (window.performance.now() / 1000).toFixed(3);
+	    webrtcUtils.log(now + ': ' + text);
+	  } else {
+	    webrtcUtils.log(text);
+	  }
+	}
+
+	if ((typeof window === 'undefined' ? 'undefined' : _typeof(window)) === 'object') {
+	  if (window.HTMLMediaElement && !('srcObject' in window.HTMLMediaElement.prototype)) {
+	    // Shim the srcObject property, once, when HTMLMediaElement is found.
+	    Object.defineProperty(window.HTMLMediaElement.prototype, 'srcObject', {
+	      get: function get() {
+	        // If prefixed srcObject property exists, return it.
+	        // Otherwise use the shimmed property, _srcObject
+	        return 'mozSrcObject' in this ? this.mozSrcObject : this._srcObject;
+	      },
+	      set: function set(stream) {
+	        if ('mozSrcObject' in this) {
+	          this.mozSrcObject = stream;
+	        } else {
+	          // Use _srcObject as a private property for this shim
+	          this._srcObject = stream;
+	          // TODO: revokeObjectUrl(this.src) when !stream to release resources?
+	          this.src = URL.createObjectURL(stream);
+	        }
+	      }
+	    });
+	  }
+	  // Proxy existing globals
+	  getUserMedia = window.navigator && window.navigator.getUserMedia;
+	}
+
+	// Attach a media stream to an element.
+	attachMediaStream = function attachMediaStream(element, stream) {
+	  element.srcObject = stream;
+	};
+
+	reattachMediaStream = function reattachMediaStream(to, from) {
+	  to.srcObject = from.srcObject;
+	};
+
+	if (typeof window === 'undefined' || !window.navigator) {
+	  webrtcUtils.log('This does not appear to be a browser');
+	  webrtcDetectedBrowser = 'not a browser';
+	} else if (navigator.mozGetUserMedia && window.mozRTCPeerConnection) {
+	  webrtcUtils.log('This appears to be Firefox');
+
+	  webrtcDetectedBrowser = 'firefox';
+
+	  // the detected firefox version.
+	  webrtcDetectedVersion = webrtcUtils.extractVersion(navigator.userAgent, /Firefox\/([0-9]+)\./, 1);
+
+	  // the minimum firefox version still supported by adapter.
+	  webrtcMinimumVersion = 31;
+
+	  // The RTCPeerConnection object.
+	  window.RTCPeerConnection = function (pcConfig, pcConstraints) {
+	    if (webrtcDetectedVersion < 38) {
+	      // .urls is not supported in FF < 38.
+	      // create RTCIceServers with a single url.
+	      if (pcConfig && pcConfig.iceServers) {
+	        var newIceServers = [];
+	        for (var i = 0; i < pcConfig.iceServers.length; i++) {
+	          var server = pcConfig.iceServers[i];
+	          if (server.hasOwnProperty('urls')) {
+	            for (var j = 0; j < server.urls.length; j++) {
+	              var newServer = {
+	                url: server.urls[j]
+	              };
+	              if (server.urls[j].indexOf('turn') === 0) {
+	                newServer.username = server.username;
+	                newServer.credential = server.credential;
+	              }
+	              newIceServers.push(newServer);
+	            }
+	          } else {
+	            newIceServers.push(pcConfig.iceServers[i]);
+	          }
+	        }
+	        pcConfig.iceServers = newIceServers;
+	      }
+	    }
+	    return new mozRTCPeerConnection(pcConfig, pcConstraints); // jscs:ignore requireCapitalizedConstructors
+	  };
+
+	  // The RTCSessionDescription object.
+	  if (!window.RTCSessionDescription) {
+	    window.RTCSessionDescription = mozRTCSessionDescription;
+	  }
+
+	  // The RTCIceCandidate object.
+	  if (!window.RTCIceCandidate) {
+	    window.RTCIceCandidate = mozRTCIceCandidate;
+	  }
+
+	  // getUserMedia constraints shim.
+	  getUserMedia = function getUserMedia(constraints, onSuccess, onError) {
+	    var constraintsToFF37 = function constraintsToFF37(c) {
+	      if ((typeof c === 'undefined' ? 'undefined' : _typeof(c)) !== 'object' || c.require) {
+	        return c;
+	      }
+	      var require = [];
+	      Object.keys(c).forEach(function (key) {
+	        if (key === 'require' || key === 'advanced' || key === 'mediaSource') {
+	          return;
+	        }
+	        var r = c[key] = _typeof(c[key]) === 'object' ? c[key] : { ideal: c[key] };
+	        if (r.min !== undefined || r.max !== undefined || r.exact !== undefined) {
+	          require.push(key);
+	        }
+	        if (r.exact !== undefined) {
+	          if (typeof r.exact === 'number') {
+	            r.min = r.max = r.exact;
+	          } else {
+	            c[key] = r.exact;
+	          }
+	          delete r.exact;
+	        }
+	        if (r.ideal !== undefined) {
+	          c.advanced = c.advanced || [];
+	          var oc = {};
+	          if (typeof r.ideal === 'number') {
+	            oc[key] = { min: r.ideal, max: r.ideal };
+	          } else {
+	            oc[key] = r.ideal;
+	          }
+	          c.advanced.push(oc);
+	          delete r.ideal;
+	          if (!Object.keys(r).length) {
+	            delete c[key];
+	          }
+	        }
+	      });
+	      if (require.length) {
+	        c.require = require;
+	      }
+	      return c;
+	    };
+	    if (webrtcDetectedVersion < 38) {
+	      webrtcUtils.log('spec: ' + JSON.stringify(constraints));
+	      if (constraints.audio) {
+	        constraints.audio = constraintsToFF37(constraints.audio);
+	      }
+	      if (constraints.video) {
+	        constraints.video = constraintsToFF37(constraints.video);
+	      }
+	      webrtcUtils.log('ff37: ' + JSON.stringify(constraints));
+	    }
+	    return navigator.mozGetUserMedia(constraints, onSuccess, onError);
+	  };
+
+	  navigator.getUserMedia = getUserMedia;
+
+	  // Shim for mediaDevices on older versions.
+	  if (!navigator.mediaDevices) {
+	    navigator.mediaDevices = { getUserMedia: requestUserMedia,
+	      addEventListener: function addEventListener() {},
+	      removeEventListener: function removeEventListener() {}
+	    };
+	  }
+	  navigator.mediaDevices.enumerateDevices = navigator.mediaDevices.enumerateDevices || function () {
+	    return new Promise(function (resolve) {
+	      var infos = [{ kind: 'audioinput', deviceId: 'default', label: '', groupId: '' }, { kind: 'videoinput', deviceId: 'default', label: '', groupId: '' }];
+	      resolve(infos);
+	    });
+	  };
+
+	  if (webrtcDetectedVersion < 41) {
+	    // Work around http://bugzil.la/1169665
+	    var orgEnumerateDevices = navigator.mediaDevices.enumerateDevices.bind(navigator.mediaDevices);
+	    navigator.mediaDevices.enumerateDevices = function () {
+	      return orgEnumerateDevices().then(undefined, function (e) {
+	        if (e.name === 'NotFoundError') {
+	          return [];
+	        }
+	        throw e;
+	      });
+	    };
+	  }
+	} else if (navigator.webkitGetUserMedia && window.webkitRTCPeerConnection) {
+	  webrtcUtils.log('This appears to be Chrome');
+
+	  webrtcDetectedBrowser = 'chrome';
+
+	  // the detected chrome version.
+	  webrtcDetectedVersion = webrtcUtils.extractVersion(navigator.userAgent, /Chrom(e|ium)\/([0-9]+)\./, 2);
+
+	  // the minimum chrome version still supported by adapter.
+	  webrtcMinimumVersion = 38;
+
+	  // The RTCPeerConnection object.
+	  window.RTCPeerConnection = function (pcConfig, pcConstraints) {
+	    // Translate iceTransportPolicy to iceTransports,
+	    // see https://code.google.com/p/webrtc/issues/detail?id=4869
+	    if (pcConfig && pcConfig.iceTransportPolicy) {
+	      pcConfig.iceTransports = pcConfig.iceTransportPolicy;
+	    }
+
+	    var pc = new webkitRTCPeerConnection(pcConfig, pcConstraints); // jscs:ignore requireCapitalizedConstructors
+	    var origGetStats = pc.getStats.bind(pc);
+	    pc.getStats = function (selector, successCallback, errorCallback) {
+	      // jshint ignore: line
+	      var self = this;
+	      var args = arguments;
+
+	      // If selector is a function then we are in the old style stats so just
+	      // pass back the original getStats format to avoid breaking old users.
+	      if (arguments.length > 0 && typeof selector === 'function') {
+	        return origGetStats(selector, successCallback);
+	      }
+
+	      var fixChromeStats = function fixChromeStats(response) {
+	        var standardReport = {};
+	        var reports = response.result();
+	        reports.forEach(function (report) {
+	          var standardStats = {
+	            id: report.id,
+	            timestamp: report.timestamp,
+	            type: report.type
+	          };
+	          report.names().forEach(function (name) {
+	            standardStats[name] = report.stat(name);
+	          });
+	          standardReport[standardStats.id] = standardStats;
+	        });
+
+	        return standardReport;
+	      };
+
+	      if (arguments.length >= 2) {
+	        var successCallbackWrapper = function successCallbackWrapper(response) {
+	          args[1](fixChromeStats(response));
+	        };
+
+	        return origGetStats.apply(this, [successCallbackWrapper, arguments[0]]);
+	      }
+
+	      // promise-support
+	      return new Promise(function (resolve, reject) {
+	        if (args.length === 1 && selector === null) {
+	          origGetStats.apply(self, [function (response) {
+	            resolve.apply(null, [fixChromeStats(response)]);
+	          }, reject]);
+	        } else {
+	          origGetStats.apply(self, [resolve, reject]);
+	        }
+	      });
+	    };
+
+	    return pc;
+	  };
+
+	  // add promise support
+	  ['createOffer', 'createAnswer'].forEach(function (method) {
+	    var nativeMethod = webkitRTCPeerConnection.prototype[method];
+	    webkitRTCPeerConnection.prototype[method] = function () {
+	      var self = this;
+	      if (arguments.length < 1 || arguments.length === 1 && _typeof(arguments[0]) === 'object') {
+	        var opts = arguments.length === 1 ? arguments[0] : undefined;
+	        return new Promise(function (resolve, reject) {
+	          nativeMethod.apply(self, [resolve, reject, opts]);
+	        });
+	      } else {
+	        return nativeMethod.apply(this, arguments);
+	      }
+	    };
+	  });
+
+	  ['setLocalDescription', 'setRemoteDescription', 'addIceCandidate'].forEach(function (method) {
+	    var nativeMethod = webkitRTCPeerConnection.prototype[method];
+	    webkitRTCPeerConnection.prototype[method] = function () {
+	      var args = arguments;
+	      var self = this;
+	      return new Promise(function (resolve, reject) {
+	        nativeMethod.apply(self, [args[0], function () {
+	          resolve();
+	          if (args.length >= 2) {
+	            args[1].apply(null, []);
+	          }
+	        }, function (err) {
+	          reject(err);
+	          if (args.length >= 3) {
+	            args[2].apply(null, [err]);
+	          }
+	        }]);
+	      });
+	    };
+	  });
+
+	  // getUserMedia constraints shim.
+	  var constraintsToChrome = function constraintsToChrome(c) {
+	    if ((typeof c === 'undefined' ? 'undefined' : _typeof(c)) !== 'object' || c.mandatory || c.optional) {
+	      return c;
+	    }
+	    var cc = {};
+	    Object.keys(c).forEach(function (key) {
+	      if (key === 'require' || key === 'advanced' || key === 'mediaSource') {
+	        return;
+	      }
+	      var r = _typeof(c[key]) === 'object' ? c[key] : { ideal: c[key] };
+	      if (r.exact !== undefined && typeof r.exact === 'number') {
+	        r.min = r.max = r.exact;
+	      }
+	      var oldname = function oldname(prefix, name) {
+	        if (prefix) {
+	          return prefix + name.charAt(0).toUpperCase() + name.slice(1);
+	        }
+	        return name === 'deviceId' ? 'sourceId' : name;
+	      };
+	      if (r.ideal !== undefined) {
+	        cc.optional = cc.optional || [];
+	        var oc = {};
+	        if (typeof r.ideal === 'number') {
+	          oc[oldname('min', key)] = r.ideal;
+	          cc.optional.push(oc);
+	          oc = {};
+	          oc[oldname('max', key)] = r.ideal;
+	          cc.optional.push(oc);
+	        } else {
+	          oc[oldname('', key)] = r.ideal;
+	          cc.optional.push(oc);
+	        }
+	      }
+	      if (r.exact !== undefined && typeof r.exact !== 'number') {
+	        cc.mandatory = cc.mandatory || {};
+	        cc.mandatory[oldname('', key)] = r.exact;
+	      } else {
+	        ['min', 'max'].forEach(function (mix) {
+	          if (r[mix] !== undefined) {
+	            cc.mandatory = cc.mandatory || {};
+	            cc.mandatory[oldname(mix, key)] = r[mix];
+	          }
+	        });
+	      }
+	    });
+	    if (c.advanced) {
+	      cc.optional = (cc.optional || []).concat(c.advanced);
+	    }
+	    return cc;
+	  };
+
+	  getUserMedia = function getUserMedia(constraints, onSuccess, onError) {
+	    if (constraints.audio) {
+	      constraints.audio = constraintsToChrome(constraints.audio);
+	    }
+	    if (constraints.video) {
+	      constraints.video = constraintsToChrome(constraints.video);
+	    }
+	    webrtcUtils.log('chrome: ' + JSON.stringify(constraints));
+	    return navigator.webkitGetUserMedia(constraints, onSuccess, onError);
+	  };
+	  navigator.getUserMedia = getUserMedia;
+
+	  if (!navigator.mediaDevices) {
+	    navigator.mediaDevices = { getUserMedia: requestUserMedia,
+	      enumerateDevices: function enumerateDevices() {
+	        return new Promise(function (resolve) {
+	          var kinds = { audio: 'audioinput', video: 'videoinput' };
+	          return MediaStreamTrack.getSources(function (devices) {
+	            resolve(devices.map(function (device) {
+	              return { label: device.label,
+	                kind: kinds[device.kind],
+	                deviceId: device.id,
+	                groupId: '' };
+	            }));
+	          });
+	        });
+	      } };
+	  }
+
+	  // A shim for getUserMedia method on the mediaDevices object.
+	  // TODO(KaptenJansson) remove once implemented in Chrome stable.
+	  if (!navigator.mediaDevices.getUserMedia) {
+	    navigator.mediaDevices.getUserMedia = function (constraints) {
+	      return requestUserMedia(constraints);
+	    };
+	  } else {
+	    // Even though Chrome 45 has navigator.mediaDevices and a getUserMedia
+	    // function which returns a Promise, it does not accept spec-style
+	    // constraints.
+	    var origGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+	    navigator.mediaDevices.getUserMedia = function (c) {
+	      webrtcUtils.log('spec:   ' + JSON.stringify(c)); // whitespace for alignment
+	      c.audio = constraintsToChrome(c.audio);
+	      c.video = constraintsToChrome(c.video);
+	      webrtcUtils.log('chrome: ' + JSON.stringify(c));
+	      return origGetUserMedia(c);
+	    };
+	  }
+
+	  // Dummy devicechange event methods.
+	  // TODO(KaptenJansson) remove once implemented in Chrome stable.
+	  if (typeof navigator.mediaDevices.addEventListener === 'undefined') {
+	    navigator.mediaDevices.addEventListener = function () {
+	      webrtcUtils.log('Dummy mediaDevices.addEventListener called.');
+	    };
+	  }
+	  if (typeof navigator.mediaDevices.removeEventListener === 'undefined') {
+	    navigator.mediaDevices.removeEventListener = function () {
+	      webrtcUtils.log('Dummy mediaDevices.removeEventListener called.');
+	    };
+	  }
+
+	  // Attach a media stream to an element.
+	  attachMediaStream = function attachMediaStream(element, stream) {
+	    if (webrtcDetectedVersion >= 43) {
+	      element.srcObject = stream;
+	    } else if (typeof element.src !== 'undefined') {
+	      element.src = URL.createObjectURL(stream);
+	    } else {
+	      webrtcUtils.log('Error attaching stream to element.');
+	    }
+	  };
+	  reattachMediaStream = function reattachMediaStream(to, from) {
+	    if (webrtcDetectedVersion >= 43) {
+	      to.srcObject = from.srcObject;
+	    } else {
+	      to.src = from.src;
+	    }
+	  };
+	} else if (navigator.mediaDevices && navigator.userAgent.match(/Edge\/(\d+).(\d+)$/)) {
+	  webrtcUtils.log('This appears to be Edge');
+	  webrtcDetectedBrowser = 'edge';
+
+	  webrtcDetectedVersion = webrtcUtils.extractVersion(navigator.userAgent, /Edge\/(\d+).(\d+)$/, 2);
+
+	  // the minimum version still supported by adapter.
+	  webrtcMinimumVersion = 12;
+
+	  if (RTCIceGatherer) {
+	    window.RTCIceCandidate = function (args) {
+	      return args;
+	    };
+	    window.RTCSessionDescription = function (args) {
+	      return args;
+	    };
+
+	    window.RTCPeerConnection = function (config) {
+	      var self = this;
+
+	      this.onicecandidate = null;
+	      this.onaddstream = null;
+	      this.onremovestream = null;
+	      this.onsignalingstatechange = null;
+	      this.oniceconnectionstatechange = null;
+	      this.onnegotiationneeded = null;
+	      this.ondatachannel = null;
+
+	      this.localStreams = [];
+	      this.remoteStreams = [];
+	      this.getLocalStreams = function () {
+	        return self.localStreams;
+	      };
+	      this.getRemoteStreams = function () {
+	        return self.remoteStreams;
+	      };
+
+	      this.localDescription = new RTCSessionDescription({
+	        type: '',
+	        sdp: ''
+	      });
+	      this.remoteDescription = new RTCSessionDescription({
+	        type: '',
+	        sdp: ''
+	      });
+	      this.signalingState = 'stable';
+	      this.iceConnectionState = 'new';
+
+	      this.iceOptions = {
+	        gatherPolicy: 'all',
+	        iceServers: []
+	      };
+	      if (config && config.iceTransportPolicy) {
+	        switch (config.iceTransportPolicy) {
+	          case 'all':
+	          case 'relay':
+	            this.iceOptions.gatherPolicy = config.iceTransportPolicy;
+	            break;
+	          case 'none':
+	            // FIXME: remove once implementation and spec have added this.
+	            throw new TypeError('iceTransportPolicy "none" not supported');
+	        }
+	      }
+	      if (config && config.iceServers) {
+	        this.iceOptions.iceServers = config.iceServers;
+	      }
+
+	      // per-track iceGathers etc
+	      this.mLines = [];
+
+	      this._iceCandidates = [];
+
+	      this._peerConnectionId = 'PC_' + Math.floor(Math.random() * 65536);
+
+	      // FIXME: Should be generated according to spec (guid?)
+	      // and be the same for all PCs from the same JS
+	      this._cname = Math.random().toString(36).substr(2, 10);
+	    };
+
+	    window.RTCPeerConnection.prototype.addStream = function (stream) {
+	      // clone just in case we're working in a local demo
+	      // FIXME: seems to be fixed
+	      this.localStreams.push(stream.clone());
+
+	      // FIXME: maybe trigger negotiationneeded?
+	    };
+
+	    window.RTCPeerConnection.prototype.removeStream = function (stream) {
+	      var idx = this.localStreams.indexOf(stream);
+	      if (idx > -1) {
+	        this.localStreams.splice(idx, 1);
+	      }
+	      // FIXME: maybe trigger negotiationneeded?
+	    };
+
+	    // SDP helper from sdp-jingle-json with modifications.
+	    window.RTCPeerConnection.prototype._toCandidateJSON = function (line) {
+	      var parts;
+	      if (line.indexOf('a=candidate:') === 0) {
+	        parts = line.substring(12).split(' ');
+	      } else {
+	        // no a=candidate
+	        parts = line.substring(10).split(' ');
+	      }
+
+	      var candidate = {
+	        foundation: parts[0],
+	        component: parts[1],
+	        protocol: parts[2].toLowerCase(),
+	        priority: parseInt(parts[3], 10),
+	        ip: parts[4],
+	        port: parseInt(parts[5], 10),
+	        // skip parts[6] == 'typ'
+	        type: parts[7]
+	        //generation: '0'
+	      };
+
+	      for (var i = 8; i < parts.length; i += 2) {
+	        if (parts[i] === 'raddr') {
+	          candidate.relatedAddress = parts[i + 1]; // was: relAddr
+	        } else if (parts[i] === 'rport') {
+	          candidate.relatedPort = parseInt(parts[i + 1], 10); // was: relPort
+	        } else if (parts[i] === 'generation') {
+	          candidate.generation = parts[i + 1];
+	        } else if (parts[i] === 'tcptype') {
+	          candidate.tcpType = parts[i + 1];
+	        }
+	      }
+	      return candidate;
+	    };
+
+	    // SDP helper from sdp-jingle-json with modifications.
+	    window.RTCPeerConnection.prototype._toCandidateSDP = function (candidate) {
+	      var sdp = [];
+	      sdp.push(candidate.foundation);
+	      sdp.push(candidate.component);
+	      sdp.push(candidate.protocol.toUpperCase());
+	      sdp.push(candidate.priority);
+	      sdp.push(candidate.ip);
+	      sdp.push(candidate.port);
+
+	      var type = candidate.type;
+	      sdp.push('typ');
+	      sdp.push(type);
+	      if (type === 'srflx' || type === 'prflx' || type === 'relay') {
+	        if (candidate.relatedAddress && candidate.relatedPort) {
+	          sdp.push('raddr');
+	          sdp.push(candidate.relatedAddress); // was: relAddr
+	          sdp.push('rport');
+	          sdp.push(candidate.relatedPort); // was: relPort
+	        }
+	      }
+	      if (candidate.tcpType && candidate.protocol.toUpperCase() === 'TCP') {
+	        sdp.push('tcptype');
+	        sdp.push(candidate.tcpType);
+	      }
+	      return 'a=candidate:' + sdp.join(' ');
+	    };
+
+	    // SDP helper from sdp-jingle-json with modifications.
+	    window.RTCPeerConnection.prototype._parseRtpMap = function (line) {
+	      var parts = line.substr(9).split(' ');
+	      var parsed = {
+	        payloadType: parseInt(parts.shift(), 10) // was: id
+	      };
+
+	      parts = parts[0].split('/');
+
+	      parsed.name = parts[0];
+	      parsed.clockRate = parseInt(parts[1], 10); // was: clockrate
+	      parsed.numChannels = parts.length === 3 ? parseInt(parts[2], 10) : 1; // was: channels
+	      return parsed;
+	    };
+
+	    // Parses SDP to determine capabilities.
+	    window.RTCPeerConnection.prototype._getRemoteCapabilities = function (section) {
+	      var remoteCapabilities = {
+	        codecs: [],
+	        headerExtensions: [],
+	        fecMechanisms: []
+	      };
+	      var i;
+	      var lines = section.split('\r\n');
+	      var mline = lines[0].substr(2).split(' ');
+	      var rtpmapFilter = function rtpmapFilter(line) {
+	        return line.indexOf('a=rtpmap:' + mline[i]) === 0;
+	      };
+	      var fmtpFilter = function fmtpFilter(line) {
+	        return line.indexOf('a=fmtp:' + mline[i]) === 0;
+	      };
+	      var parseFmtp = function parseFmtp(line) {
+	        var parsed = {};
+	        var kv;
+	        var parts = line.substr(('a=fmtp:' + mline[i]).length + 1).split(';');
+	        for (var j = 0; j < parts.length; j++) {
+	          kv = parts[j].split('=');
+	          parsed[kv[0].trim()] = kv[1];
+	        }
+	        console.log('fmtp', mline[i], parsed);
+	        return parsed;
+	      };
+	      var rtcpFbFilter = function rtcpFbFilter(line) {
+	        return line.indexOf('a=rtcp-fb:' + mline[i]) === 0;
+	      };
+	      var parseRtcpFb = function parseRtcpFb(line) {
+	        var parts = line.substr(('a=rtcp-fb:' + mline[i]).length + 1).split(' ');
+	        return {
+	          type: parts.shift(),
+	          parameter: parts.join(' ')
+	        };
+	      };
+	      for (i = 3; i < mline.length; i++) {
+	        // find all codecs from mline[3..]
+	        var line = lines.filter(rtpmapFilter)[0];
+	        if (line) {
+	          var codec = this._parseRtpMap(line);
+
+	          var fmtp = lines.filter(fmtpFilter);
+	          codec.parameters = fmtp.length ? parseFmtp(fmtp[0]) : {};
+	          codec.rtcpFeedback = lines.filter(rtcpFbFilter).map(parseRtcpFb);
+
+	          remoteCapabilities.codecs.push(codec);
+	        }
+	      }
+	      return remoteCapabilities;
+	    };
+
+	    // Serializes capabilities to SDP.
+	    window.RTCPeerConnection.prototype._capabilitiesToSDP = function (caps) {
+	      var sdp = '';
+	      caps.codecs.forEach(function (codec) {
+	        var pt = codec.payloadType;
+	        if (codec.preferredPayloadType !== undefined) {
+	          pt = codec.preferredPayloadType;
+	        }
+	        sdp += 'a=rtpmap:' + pt + ' ' + codec.name + '/' + codec.clockRate + (codec.numChannels !== 1 ? '/' + codec.numChannels : '') + '\r\n';
+	        if (codec.parameters && codec.parameters.length) {
+	          sdp += 'a=ftmp:' + pt + ' ';
+	          Object.keys(codec.parameters).forEach(function (param) {
+	            sdp += param + '=' + codec.parameters[param];
+	          });
+	          sdp += '\r\n';
+	        }
+	        if (codec.rtcpFeedback) {
+	          // FIXME: special handling for trr-int?
+	          codec.rtcpFeedback.forEach(function (fb) {
+	            sdp += 'a=rtcp-fb:' + pt + ' ' + fb.type + ' ' + fb.parameter + '\r\n';
+	          });
+	        }
+	      });
+	      return sdp;
+	    };
+
+	    // Calculates the intersection of local and remote capabilities.
+	    window.RTCPeerConnection.prototype._getCommonCapabilities = function (localCapabilities, remoteCapabilities) {
+	      var commonCapabilities = {
+	        codecs: [],
+	        headerExtensions: [],
+	        fecMechanisms: []
+	      };
+	      localCapabilities.codecs.forEach(function (lCodec) {
+	        for (var i = 0; i < remoteCapabilities.codecs.length; i++) {
+	          var rCodec = remoteCapabilities.codecs[i];
+	          if (lCodec.name === rCodec.name && lCodec.clockRate === rCodec.clockRate && lCodec.numChannels === rCodec.numChannels) {
+	            // push rCodec so we reply with offerer payload type
+	            commonCapabilities.codecs.push(rCodec);
+
+	            // FIXME: also need to calculate intersection between
+	            // .rtcpFeedback and .parameters
+	            break;
+	          }
+	        }
+	      });
+
+	      localCapabilities.headerExtensions.forEach(function (lHeaderExtension) {
+	        for (var i = 0; i < remoteCapabilities.headerExtensions.length; i++) {
+	          var rHeaderExtension = remoteCapabilities.headerExtensions[i];
+	          if (lHeaderExtension.uri === rHeaderExtension.uri) {
+	            commonCapabilities.headerExtensions.push(rHeaderExtension);
+	            break;
+	          }
+	        }
+	      });
+
+	      // FIXME: fecMechanisms
+	      return commonCapabilities;
+	    };
+
+	    // Parses DTLS parameters from SDP section or sessionpart.
+	    window.RTCPeerConnection.prototype._getDtlsParameters = function (section, session) {
+	      var lines = section.split('\r\n');
+	      lines = lines.concat(session.split('\r\n')); // Search in session part, too.
+	      var fpLine = lines.filter(function (line) {
+	        return line.indexOf('a=fingerprint:') === 0;
+	      });
+	      fpLine = fpLine[0].substr(14);
+	      var dtlsParameters = {
+	        role: 'auto',
+	        fingerprints: [{
+	          algorithm: fpLine.split(' ')[0],
+	          value: fpLine.split(' ')[1]
+	        }]
+	      };
+	      return dtlsParameters;
+	    };
+
+	    // Serializes DTLS parameters to SDP.
+	    window.RTCPeerConnection.prototype._dtlsParametersToSDP = function (params, setupType) {
+	      var sdp = 'a=setup:' + setupType + '\r\n';
+	      params.fingerprints.forEach(function (fp) {
+	        sdp += 'a=fingerprint:' + fp.algorithm + ' ' + fp.value + '\r\n';
+	      });
+	      return sdp;
+	    };
+
+	    // Parses ICE information from SDP section or sessionpart.
+	    window.RTCPeerConnection.prototype._getIceParameters = function (section, session) {
+	      var lines = section.split('\r\n');
+	      lines = lines.concat(session.split('\r\n')); // Search in session part, too.
+	      var iceParameters = {
+	        usernameFragment: lines.filter(function (line) {
+	          return line.indexOf('a=ice-ufrag:') === 0;
+	        })[0].substr(12),
+	        password: lines.filter(function (line) {
+	          return line.indexOf('a=ice-pwd:') === 0;
+	        })[0].substr(10)
+	      };
+	      return iceParameters;
+	    };
+
+	    // Serializes ICE parameters to SDP.
+	    window.RTCPeerConnection.prototype._iceParametersToSDP = function (params) {
+	      return 'a=ice-ufrag:' + params.usernameFragment + '\r\n' + 'a=ice-pwd:' + params.password + '\r\n';
+	    };
+
+	    window.RTCPeerConnection.prototype._getEncodingParameters = function (ssrc) {
+	      return {
+	        ssrc: ssrc,
+	        codecPayloadType: 0,
+	        fec: 0,
+	        rtx: 0,
+	        priority: 1.0,
+	        maxBitrate: 2000000.0,
+	        minQuality: 0,
+	        framerateBias: 0.5,
+	        resolutionScale: 1.0,
+	        framerateScale: 1.0,
+	        active: true,
+	        dependencyEncodingId: undefined,
+	        encodingId: undefined
+	      };
+	    };
+
+	    // Create ICE gatherer, ICE transport and DTLS transport.
+	    window.RTCPeerConnection.prototype._createIceAndDtlsTransports = function (mid, sdpMLineIndex) {
+	      var self = this;
+	      var iceGatherer = new RTCIceGatherer(self.iceOptions);
+	      var iceTransport = new RTCIceTransport(iceGatherer);
+	      iceGatherer.onlocalcandidate = function (evt) {
+	        var event = {};
+	        event.candidate = { sdpMid: mid, sdpMLineIndex: sdpMLineIndex };
+
+	        var cand = evt.candidate;
+	        var isEndOfCandidates = !(cand && Object.keys(cand).length > 0);
+	        if (isEndOfCandidates) {
+	          event.candidate.candidate = 'candidate:1 1 udp 1 0.0.0.0 9 typ endOfCandidates';
+	        } else {
+	          // RTCIceCandidate doesn't have a component, needs to be added
+	          cand.component = iceTransport.component === 'RTCP' ? 2 : 1;
+	          event.candidate.candidate = self._toCandidateSDP(cand);
+	        }
+	        if (self.onicecandidate !== null) {
+	          if (self.localDescription && self.localDescription.type === '') {
+	            self._iceCandidates.push(event);
+	          } else {
+	            self.onicecandidate(event);
+	          }
+	        }
+	      };
+	      iceTransport.onicestatechange = function () {
+	        /*
+	        console.log(self._peerConnectionId,
+	            'ICE state change', iceTransport.state);
+	        */
+	        self._updateIceConnectionState(iceTransport.state);
+	      };
+
+	      var dtlsTransport = new RTCDtlsTransport(iceTransport);
+	      dtlsTransport.ondtlsstatechange = function () {
+	        /*
+	        console.log(self._peerConnectionId, sdpMLineIndex,
+	            'dtls state change', dtlsTransport.state);
+	        */
+	      };
+	      dtlsTransport.onerror = function (error) {
+	        console.error('dtls error', error);
+	      };
+	      return {
+	        iceGatherer: iceGatherer,
+	        iceTransport: iceTransport,
+	        dtlsTransport: dtlsTransport
+	      };
+	    };
+
+	    window.RTCPeerConnection.prototype.setLocalDescription = function (description) {
+	      var self = this;
+	      if (description.type === 'offer') {
+	        if (!description.ortc) {
+	          // FIXME: throw?
+	        } else {
+	          this.mLines = description.ortc;
+	        }
+	      } else if (description.type === 'answer') {
+	        var sections = self.remoteDescription.sdp.split('\r\nm=');
+	        var sessionpart = sections.shift();
+	        sections.forEach(function (section, sdpMLineIndex) {
+	          section = 'm=' + section;
+
+	          var iceGatherer = self.mLines[sdpMLineIndex].iceGatherer;
+	          var iceTransport = self.mLines[sdpMLineIndex].iceTransport;
+	          var dtlsTransport = self.mLines[sdpMLineIndex].dtlsTransport;
+	          var rtpSender = self.mLines[sdpMLineIndex].rtpSender;
+	          var localCapabilities = self.mLines[sdpMLineIndex].localCapabilities;
+	          var remoteCapabilities = self.mLines[sdpMLineIndex].remoteCapabilities;
+	          var sendSSRC = self.mLines[sdpMLineIndex].sendSSRC;
+	          var recvSSRC = self.mLines[sdpMLineIndex].recvSSRC;
+
+	          var remoteIceParameters = self._getIceParameters(section, sessionpart);
+	          iceTransport.start(iceGatherer, remoteIceParameters, 'controlled');
+
+	          var remoteDtlsParameters = self._getDtlsParameters(section, sessionpart);
+	          dtlsTransport.start(remoteDtlsParameters);
+
+	          if (rtpSender) {
+	            // calculate intersection of capabilities
+	            var params = self._getCommonCapabilities(localCapabilities, remoteCapabilities);
+	            params.muxId = sendSSRC;
+	            params.encodings = [self._getEncodingParameters(sendSSRC)];
+	            params.rtcp = {
+	              cname: self._cname,
+	              reducedSize: false,
+	              ssrc: recvSSRC,
+	              mux: true
+	            };
+	            rtpSender.send(params);
+	          }
+	        });
+	      }
+
+	      this.localDescription = description;
+	      switch (description.type) {
+	        case 'offer':
+	          this._updateSignalingState('have-local-offer');
+	          break;
+	        case 'answer':
+	          this._updateSignalingState('stable');
+	          break;
+	      }
+
+	      // FIXME: need to _reliably_ execute after args[1] or promise
+	      window.setTimeout(function () {
+	        // FIXME: need to apply ice candidates in a way which is async but in-order
+	        self._iceCandidates.forEach(function (event) {
+	          if (self.onicecandidate !== null) {
+	            self.onicecandidate(event);
+	          }
+	        });
+	        self._iceCandidates = [];
+	      }, 50);
+	      if (arguments.length > 1 && typeof arguments[1] === 'function') {
+	        window.setTimeout(arguments[1], 0);
+	      }
+	      return new Promise(function (resolve) {
+	        resolve();
+	      });
+	    };
+
+	    window.RTCPeerConnection.prototype.setRemoteDescription = function (description) {
+	      // FIXME: for type=offer this creates state. which should not
+	      //  happen before SLD with type=answer but... we need the stream
+	      //  here for onaddstream.
+	      var self = this;
+	      var sections = description.sdp.split('\r\nm=');
+	      var sessionpart = sections.shift();
+	      var stream = new MediaStream();
+	      sections.forEach(function (section, sdpMLineIndex) {
+	        section = 'm=' + section;
+	        var lines = section.split('\r\n');
+	        var mline = lines[0].substr(2).split(' ');
+	        var kind = mline[0];
+	        var line;
+
+	        var iceGatherer;
+	        var iceTransport;
+	        var dtlsTransport;
+	        var rtpSender;
+	        var rtpReceiver;
+	        var sendSSRC;
+	        var recvSSRC;
+
+	        var mid = lines.filter(function (line) {
+	          return line.indexOf('a=mid:') === 0;
+	        })[0].substr(6);
+
+	        var cname;
+
+	        var remoteCapabilities;
+	        var params;
+
+	        if (description.type === 'offer') {
+	          var transports = self._createIceAndDtlsTransports(mid, sdpMLineIndex);
+
+	          var localCapabilities = RTCRtpReceiver.getCapabilities(kind);
+	          // determine remote caps from SDP
+	          remoteCapabilities = self._getRemoteCapabilities(section);
+
+	          line = lines.filter(function (line) {
+	            return line.indexOf('a=ssrc:') === 0 && line.split(' ')[1].indexOf('cname:') === 0;
+	          });
+	          sendSSRC = (2 * sdpMLineIndex + 2) * 1001;
+	          if (line) {
+	            // FIXME: alot of assumptions here
+	            recvSSRC = line[0].split(' ')[0].split(':')[1];
+	            cname = line[0].split(' ')[1].split(':')[1];
+	          }
+	          rtpReceiver = new RTCRtpReceiver(transports.dtlsTransport, kind);
+
+	          // calculate intersection so no unknown caps get passed into the RTPReciver
+	          params = self._getCommonCapabilities(localCapabilities, remoteCapabilities);
+
+	          params.muxId = recvSSRC;
+	          params.encodings = [self._getEncodingParameters(recvSSRC)];
+	          params.rtcp = {
+	            cname: cname,
+	            reducedSize: false,
+	            ssrc: sendSSRC,
+	            mux: true
+	          };
+	          rtpReceiver.receive(params);
+	          // FIXME: not correct when there are multiple streams but that is
+	          // not currently supported.
+	          stream.addTrack(rtpReceiver.track);
+
+	          // FIXME: honor a=sendrecv
+	          if (self.localStreams.length > 0 && self.localStreams[0].getTracks().length >= sdpMLineIndex) {
+	            // FIXME: actually more complicated, needs to match types etc
+	            var localtrack = self.localStreams[0].getTracks()[sdpMLineIndex];
+	            rtpSender = new RTCRtpSender(localtrack, transports.dtlsTransport);
+	          }
+
+	          self.mLines[sdpMLineIndex] = {
+	            iceGatherer: transports.iceGatherer,
+	            iceTransport: transports.iceTransport,
+	            dtlsTransport: transports.dtlsTransport,
+	            localCapabilities: localCapabilities,
+	            remoteCapabilities: remoteCapabilities,
+	            rtpSender: rtpSender,
+	            rtpReceiver: rtpReceiver,
+	            kind: kind,
+	            mid: mid,
+	            sendSSRC: sendSSRC,
+	            recvSSRC: recvSSRC
+	          };
+	        } else {
+	          iceGatherer = self.mLines[sdpMLineIndex].iceGatherer;
+	          iceTransport = self.mLines[sdpMLineIndex].iceTransport;
+	          dtlsTransport = self.mLines[sdpMLineIndex].dtlsTransport;
+	          rtpSender = self.mLines[sdpMLineIndex].rtpSender;
+	          rtpReceiver = self.mLines[sdpMLineIndex].rtpReceiver;
+	          sendSSRC = self.mLines[sdpMLineIndex].sendSSRC;
+	          recvSSRC = self.mLines[sdpMLineIndex].recvSSRC;
+	        }
+
+	        var remoteIceParameters = self._getIceParameters(section, sessionpart);
+	        var remoteDtlsParameters = self._getDtlsParameters(section, sessionpart);
+
+	        // for answers we start ice and dtls here, otherwise this is done in SLD
+	        if (description.type === 'answer') {
+	          iceTransport.start(iceGatherer, remoteIceParameters, 'controlling');
+	          dtlsTransport.start(remoteDtlsParameters);
+
+	          // determine remote caps from SDP
+	          remoteCapabilities = self._getRemoteCapabilities(section);
+	          // FIXME: store remote caps?
+
+	          if (rtpSender) {
+	            params = remoteCapabilities;
+	            params.muxId = sendSSRC;
+	            params.encodings = [self._getEncodingParameters(sendSSRC)];
+	            params.rtcp = {
+	              cname: self._cname,
+	              reducedSize: false,
+	              ssrc: recvSSRC,
+	              mux: true
+	            };
+	            rtpSender.send(params);
+	          }
+
+	          // FIXME: only if a=sendrecv
+	          var bidi = lines.filter(function (line) {
+	            return line.indexOf('a=ssrc:') === 0;
+	          }).length > 0;
+	          if (rtpReceiver && bidi) {
+	            line = lines.filter(function (line) {
+	              return line.indexOf('a=ssrc:') === 0 && line.split(' ')[1].indexOf('cname:') === 0;
+	            });
+	            if (line) {
+	              // FIXME: alot of assumptions here
+	              recvSSRC = line[0].split(' ')[0].split(':')[1];
+	              cname = line[0].split(' ')[1].split(':')[1];
+	            }
+	            params = remoteCapabilities;
+	            params.muxId = recvSSRC;
+	            params.encodings = [self._getEncodingParameters(recvSSRC)];
+	            params.rtcp = {
+	              cname: cname,
+	              reducedSize: false,
+	              ssrc: sendSSRC,
+	              mux: true
+	            };
+	            rtpReceiver.receive(params, kind);
+	            stream.addTrack(rtpReceiver.track);
+	            self.mLines[sdpMLineIndex].recvSSRC = recvSSRC;
+	          }
+	        }
+	      });
+
+	      this.remoteDescription = description;
+	      switch (description.type) {
+	        case 'offer':
+	          this._updateSignalingState('have-remote-offer');
+	          break;
+	        case 'answer':
+	          this._updateSignalingState('stable');
+	          break;
+	      }
+	      window.setTimeout(function () {
+	        if (self.onaddstream !== null && stream.getTracks().length) {
+	          self.remoteStreams.push(stream);
+	          window.setTimeout(function () {
+	            self.onaddstream({ stream: stream });
+	          }, 0);
+	        }
+	      }, 0);
+	      if (arguments.length > 1 && typeof arguments[1] === 'function') {
+	        window.setTimeout(arguments[1], 0);
+	      }
+	      return new Promise(function (resolve) {
+	        resolve();
+	      });
+	    };
+
+	    window.RTCPeerConnection.prototype.close = function () {
+	      this.mLines.forEach(function (mLine) {
+	        /* not yet
+	        if (mLine.iceGatherer) {
+	          mLine.iceGatherer.close();
+	        }
+	        */
+	        if (mLine.iceTransport) {
+	          mLine.iceTransport.stop();
+	        }
+	        if (mLine.dtlsTransport) {
+	          mLine.dtlsTransport.stop();
+	        }
+	        if (mLine.rtpSender) {
+	          mLine.rtpSender.stop();
+	        }
+	        if (mLine.rtpReceiver) {
+	          mLine.rtpReceiver.stop();
+	        }
+	      });
+	      // FIXME: clean up tracks, local streams, remote streams, etc
+	      this._updateSignalingState('closed');
+	      this._updateIceConnectionState('closed');
+	    };
+
+	    // Update the signaling state.
+	    window.RTCPeerConnection.prototype._updateSignalingState = function (newState) {
+	      this.signalingState = newState;
+	      if (this.onsignalingstatechange !== null) {
+	        this.onsignalingstatechange();
+	      }
+	    };
+
+	    // Update the ICE connection state.
+	    // FIXME: should be called 'updateConnectionState', also be called for
+	    //  DTLS changes and implement
+	    //  https://lists.w3.org/Archives/Public/public-webrtc/2015Sep/0033.html
+	    window.RTCPeerConnection.prototype._updateIceConnectionState = function (newState) {
+	      var self = this;
+	      if (this.iceConnectionState !== newState) {
+	        var agreement = self.mLines.every(function (mLine) {
+	          return mLine.iceTransport.state === newState;
+	        });
+	        if (agreement) {
+	          self.iceConnectionState = newState;
+	          if (this.oniceconnectionstatechange !== null) {
+	            this.oniceconnectionstatechange();
+	          }
+	        }
+	      }
+	    };
+
+	    window.RTCPeerConnection.prototype.createOffer = function () {
+	      var self = this;
+	      var offerOptions;
+	      if (arguments.length === 1 && typeof arguments[0] !== 'function') {
+	        offerOptions = arguments[0];
+	      } else if (arguments.length === 3) {
+	        offerOptions = arguments[2];
+	      }
+
+	      var tracks = [];
+	      var numAudioTracks = 0;
+	      var numVideoTracks = 0;
+	      // Default to sendrecv.
+	      if (this.localStreams.length) {
+	        numAudioTracks = this.localStreams[0].getAudioTracks().length;
+	        numVideoTracks = this.localStreams[0].getAudioTracks().length;
+	      }
+	      // Determine number of audio and video tracks we need to send/recv.
+	      if (offerOptions) {
+	        // Deal with Chrome legacy constraints...
+	        if (offerOptions.mandatory) {
+	          if (offerOptions.mandatory.OfferToReceiveAudio) {
+	            numAudioTracks = 1;
+	          } else if (offerOptions.mandatory.OfferToReceiveAudio === false) {
+	            numAudioTracks = 0;
+	          }
+	          if (offerOptions.mandatory.OfferToReceiveVideo) {
+	            numVideoTracks = 1;
+	          } else if (offerOptions.mandatory.OfferToReceiveVideo === false) {
+	            numVideoTracks = 0;
+	          }
+	        } else {
+	          if (offerOptions.offerToReceiveAudio !== undefined) {
+	            numAudioTracks = offerOptions.offerToReceiveAudio;
+	          }
+	          if (offerOptions.offerToReceiveVideo !== undefined) {
+	            numVideoTracks = offerOptions.offerToReceiveVideo;
+	          }
+	        }
+	      }
+	      if (this.localStreams.length) {
+	        // Push local streams.
+	        this.localStreams[0].getTracks().forEach(function (track) {
+	          tracks.push({
+	            kind: track.kind,
+	            track: track,
+	            wantReceive: track.kind === 'audio' ? numAudioTracks > 0 : numVideoTracks > 0
+	          });
+	          if (track.kind === 'audio') {
+	            numAudioTracks--;
+	          } else if (track.kind === 'video') {
+	            numVideoTracks--;
+	          }
+	        });
+	      }
+	      // Create M-lines for recvonly streams.
+	      while (numAudioTracks > 0 || numVideoTracks > 0) {
+	        if (numAudioTracks > 0) {
+	          tracks.push({
+	            kind: 'audio',
+	            wantReceive: true
+	          });
+	          numAudioTracks--;
+	        }
+	        if (numVideoTracks > 0) {
+	          tracks.push({
+	            kind: 'video',
+	            wantReceive: true
+	          });
+	          numVideoTracks--;
+	        }
+	      }
+
+	      var sdp = 'v=0\r\n' + 'o=thisisadapterortc 8169639915646943137 2 IN IP4 127.0.0.1\r\n' + 's=-\r\n' + 't=0 0\r\n';
+	      var mLines = [];
+	      tracks.forEach(function (mline, sdpMLineIndex) {
+	        // For each track, create an ice gatherer, ice transport, dtls transport,
+	        // potentially rtpsender and rtpreceiver.
+	        var track = mline.track;
+	        var kind = mline.kind;
+	        var mid = Math.random().toString(36).substr(2, 10);
+
+	        var transports = self._createIceAndDtlsTransports(mid, sdpMLineIndex);
+
+	        var localCapabilities = RTCRtpSender.getCapabilities(kind);
+	        var rtpSender;
+	        // generate an ssrc now, to be used later in rtpSender.send
+	        var sendSSRC = (2 * sdpMLineIndex + 1) * 1001; //Math.floor(Math.random()*4294967295);
+	        var recvSSRC; // don't know yet
+	        if (track) {
+	          rtpSender = new RTCRtpSender(track, transports.dtlsTransport);
+	        }
+
+	        var rtpReceiver;
+	        if (mline.wantReceive) {
+	          rtpReceiver = new RTCRtpReceiver(transports.dtlsTransport, kind);
+	        }
+
+	        mLines[sdpMLineIndex] = {
+	          iceGatherer: transports.iceGatherer,
+	          iceTransport: transports.iceTransport,
+	          dtlsTransport: transports.dtlsTransport,
+	          localCapabilities: localCapabilities,
+	          remoteCapabilities: null,
+	          rtpSender: rtpSender,
+	          rtpReceiver: rtpReceiver,
+	          kind: kind,
+	          mid: mid,
+	          sendSSRC: sendSSRC,
+	          recvSSRC: recvSSRC
+	        };
+
+	        // Map things to SDP.
+	        // Build the mline.
+	        sdp += 'm=' + kind + ' 9 UDP/TLS/RTP/SAVPF ';
+	        sdp += localCapabilities.codecs.map(function (codec) {
+	          return codec.preferredPayloadType;
+	        }).join(' ') + '\r\n';
+
+	        sdp += 'c=IN IP4 0.0.0.0\r\n';
+	        sdp += 'a=rtcp:9 IN IP4 0.0.0.0\r\n';
+
+	        // Map ICE parameters (ufrag, pwd) to SDP.
+	        sdp += self._iceParametersToSDP(transports.iceGatherer.getLocalParameters());
+
+	        // Map DTLS parameters to SDP.
+	        sdp += self._dtlsParametersToSDP(transports.dtlsTransport.getLocalParameters(), 'actpass');
+
+	        sdp += 'a=mid:' + mid + '\r\n';
+
+	        if (rtpSender && rtpReceiver) {
+	          sdp += 'a=sendrecv\r\n';
+	        } else if (rtpSender) {
+	          sdp += 'a=sendonly\r\n';
+	        } else if (rtpReceiver) {
+	          sdp += 'a=recvonly\r\n';
+	        } else {
+	          sdp += 'a=inactive\r\n';
+	        }
+	        sdp += 'a=rtcp-mux\r\n';
+
+	        // Add a=rtpmap lines for each codec. Also fmtp and rtcp-fb.
+	        sdp += self._capabilitiesToSDP(localCapabilities);
+
+	        if (track) {
+	          sdp += 'a=msid:' + self.localStreams[0].id + ' ' + track.id + '\r\n';
+	          sdp += 'a=ssrc:' + sendSSRC + ' ' + 'msid:' + self.localStreams[0].id + ' ' + track.id + '\r\n';
+	        }
+	        sdp += 'a=ssrc:' + sendSSRC + ' cname:' + self._cname + '\r\n';
+	      });
+
+	      var desc = new RTCSessionDescription({
+	        type: 'offer',
+	        sdp: sdp,
+	        ortc: mLines
+	      });
+	      if (arguments.length && typeof arguments[0] === 'function') {
+	        window.setTimeout(arguments[0], 0, desc);
+	      }
+	      return new Promise(function (resolve) {
+	        resolve(desc);
+	      });
+	    };
+
+	    window.RTCPeerConnection.prototype.createAnswer = function () {
+	      var self = this;
+	      var answerOptions;
+	      if (arguments.length === 1 && typeof arguments[0] !== 'function') {
+	        answerOptions = arguments[0];
+	      } else if (arguments.length === 3) {
+	        answerOptions = arguments[2];
+	      }
+
+	      var sdp = 'v=0\r\n' + 'o=thisisadapterortc 8169639915646943137 2 IN IP4 127.0.0.1\r\n' + 's=-\r\n' + 't=0 0\r\n';
+	      this.mLines.forEach(function (mLine /*, sdpMLineIndex*/) {
+	        var iceGatherer = mLine.iceGatherer;
+	        //var iceTransport = mLine.iceTransport;
+	        var dtlsTransport = mLine.dtlsTransport;
+	        var localCapabilities = mLine.localCapabilities;
+	        var remoteCapabilities = mLine.remoteCapabilities;
+	        var rtpSender = mLine.rtpSender;
+	        var rtpReceiver = mLine.rtpReceiver;
+	        var kind = mLine.kind;
+	        var sendSSRC = mLine.sendSSRC;
+	        //var recvSSRC = mLine.recvSSRC;
+
+	        // Calculate intersection of capabilities.
+	        var commonCapabilities = self._getCommonCapabilities(localCapabilities, remoteCapabilities);
+
+	        // Map things to SDP.
+	        // Build the mline.
+	        sdp += 'm=' + kind + ' 9 UDP/TLS/RTP/SAVPF ';
+	        sdp += commonCapabilities.codecs.map(function (codec) {
+	          return codec.payloadType;
+	        }).join(' ') + '\r\n';
+
+	        sdp += 'c=IN IP4 0.0.0.0\r\n';
+	        sdp += 'a=rtcp:9 IN IP4 0.0.0.0\r\n';
+
+	        // Map ICE parameters (ufrag, pwd) to SDP.
+	        sdp += self._iceParametersToSDP(iceGatherer.getLocalParameters());
+
+	        // Map DTLS parameters to SDP.
+	        sdp += self._dtlsParametersToSDP(dtlsTransport.getLocalParameters(), 'active');
+
+	        sdp += 'a=mid:' + mLine.mid + '\r\n';
+
+	        if (rtpSender && rtpReceiver) {
+	          sdp += 'a=sendrecv\r\n';
+	        } else if (rtpReceiver) {
+	          sdp += 'a=sendonly\r\n';
+	        } else if (rtpSender) {
+	          sdp += 'a=sendonly\r\n';
+	        } else {
+	          sdp += 'a=inactive\r\n';
+	        }
+	        sdp += 'a=rtcp-mux\r\n';
+
+	        // Add a=rtpmap lines for each codec. Also fmtp and rtcp-fb.
+	        sdp += self._capabilitiesToSDP(commonCapabilities);
+
+	        if (rtpSender) {
+	          // add a=ssrc lines from RTPSender
+	          sdp += 'a=msid:' + self.localStreams[0].id + ' ' + rtpSender.track.id + '\r\n';
+	          sdp += 'a=ssrc:' + sendSSRC + ' ' + 'msid:' + self.localStreams[0].id + ' ' + rtpSender.track.id + '\r\n';
+	        }
+	        sdp += 'a=ssrc:' + sendSSRC + ' cname:' + self._cname + '\r\n';
+	      });
+
+	      var desc = new RTCSessionDescription({
+	        type: 'answer',
+	        sdp: sdp
+	        // ortc: tracks -- state is created in SRD already
+	      });
+	      if (arguments.length && typeof arguments[0] === 'function') {
+	        window.setTimeout(arguments[0], 0, desc);
+	      }
+	      return new Promise(function (resolve) {
+	        resolve(desc);
+	      });
+	    };
+
+	    window.RTCPeerConnection.prototype.addIceCandidate = function (candidate) {
+	      // TODO: lookup by mid
+	      var mLine = this.mLines[candidate.sdpMLineIndex];
+	      if (mLine) {
+	        var cand = Object.keys(candidate.candidate).length > 0 ? this._toCandidateJSON(candidate.candidate) : {};
+	        // dirty hack to make simplewebrtc work.
+	        // FIXME: need another dirty hack to avoid adding candidates after this
+	        if (cand.type === 'endOfCandidates') {
+	          cand = {};
+	        }
+	        // dirty hack to make chrome work.
+	        if (cand.protocol === 'tcp' && cand.port === 0) {
+	          cand = {};
+	        }
+	        mLine.iceTransport.addRemoteCandidate(cand);
+	      }
+	      if (arguments.length > 1 && typeof arguments[1] === 'function') {
+	        window.setTimeout(arguments[1], 0);
+	      }
+	      return new Promise(function (resolve) {
+	        resolve();
+	      });
+	    };
+
+	    window.RTCPeerConnection.prototype.getStats = function () {
+	      var promises = [];
+	      this.mLines.forEach(function (mLine) {
+	        ['rtpSender', 'rtpReceiver', 'iceGatherer', 'iceTransport', 'dtlsTransport'].forEach(function (thing) {
+	          if (mLine[thing]) {
+	            promises.push(mLine[thing].getStats());
+	          }
+	        });
+	      });
+	      var cb = arguments.length > 1 && typeof arguments[1] === 'function' && arguments[1];
+	      return new Promise(function (resolve) {
+	        var results = {};
+	        Promise.all(promises).then(function (res) {
+	          res.forEach(function (result) {
+	            Object.keys(result).forEach(function (id) {
+	              results[id] = result[id];
+	            });
+	          });
+	          if (cb) {
+	            window.setTimeout(cb, 0, results);
+	          }
+	          resolve(results);
+	        });
+	      });
+	    };
+	  }
+	} else {
+	  webrtcUtils.log('Browser does not appear to be WebRTC-capable');
+	}
+
+	// Returns the result of getUserMedia as a Promise.
+	function requestUserMedia(constraints) {
+	  return new Promise(function (resolve, reject) {
+	    getUserMedia(constraints, resolve, reject);
+	  });
+	}
+
+	var webrtcTesting = {};
+	try {
+	  Object.defineProperty(webrtcTesting, 'version', {
+	    set: function set(version) {
+	      webrtcDetectedVersion = version;
+	    }
+	  });
+	} catch (e) {}
+
+	if (true) {
+	  var RTCPeerConnection;
+	  if (typeof window !== 'undefined') {
+	    RTCPeerConnection = window.RTCPeerConnection;
+	  }
+	  module.exports = {
+	    RTCPeerConnection: RTCPeerConnection,
+	    getUserMedia: getUserMedia,
+	    attachMediaStream: attachMediaStream,
+	    reattachMediaStream: reattachMediaStream,
+	    webrtcDetectedBrowser: webrtcDetectedBrowser,
+	    webrtcDetectedVersion: webrtcDetectedVersion,
+	    webrtcMinimumVersion: webrtcMinimumVersion,
+	    webrtcTesting: webrtcTesting,
+	    webrtcUtils: webrtcUtils
+	    //requestUserMedia: not exposed on purpose.
+	    //trace: not exposed on purpose.
+	  };
+	} else if (typeof require === 'function' && typeof define === 'function') {
+	  // Expose objects and functions when RequireJS is doing the loading.
+	  define([], function () {
+	    return {
+	      RTCPeerConnection: window.RTCPeerConnection,
+	      getUserMedia: getUserMedia,
+	      attachMediaStream: attachMediaStream,
+	      reattachMediaStream: reattachMediaStream,
+	      webrtcDetectedBrowser: webrtcDetectedBrowser,
+	      webrtcDetectedVersion: webrtcDetectedVersion,
+	      webrtcMinimumVersion: webrtcMinimumVersion,
+	      webrtcTesting: webrtcTesting,
+	      webrtcUtils: webrtcUtils
+	      //requestUserMedia: not exposed on purpose.
+	      //trace: not exposed on purpose.
+	    };
+	  });
+	}
+
+/***/ },
+/* 293 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	var CONSTRAINTS = { audio: true };
+	var USER_MEDIA = navigator.mediaDevices && navigator.mediaDevices.getUserMedia && navigator.mediaDevices.getUserMedia(CONSTRAINTS) || new Promise(function () {});
+
+	exports.default = USER_MEDIA;
+
+/***/ },
+/* 294 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = new (window.AudioContext || window.webkitAudioContext)();
+
+/***/ },
+/* 295 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = undefined;
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	__webpack_require__(296);
+
+	var _react = __webpack_require__(14);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _classnames = __webpack_require__(286);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _bemCn = __webpack_require__(287);
+
+	var _bemCn2 = _interopRequireDefault(_bemCn);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Info = function (_Component) {
+	    _inherits(Info, _Component);
+
+	    function Info(props) {
+	        _classCallCheck(this, Info);
+
+	        var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Info).call(this, props));
+
+	        _this.boxClassName = 'Info';
+	        _this.block = (0, _bemCn2.default)(_this.boxClassName);
+	        return _this;
+	    }
+
+	    _createClass(Info, [{
+	        key: 'render',
+	        value: function render() {
+	            return _react2.default.createElement(
+	                'article',
+	                {
+	                    className: this.block() },
+	                _react2.default.createElement(
+	                    'hgroup',
+	                    { className: this.block('header') },
+	                    _react2.default.createElement('img', { className: 'logo', src: '/materials/images/redenergy@2x.png' }),
+	                    _react2.default.createElement(
+	                        'h1',
+	                        { className: 'cHeader title' },
+	                        'aloudly'
+	                    ),
+	                    _react2.default.createElement(
+	                        'h1',
+	                        { className: 'cHeader dot' },
+	                        '.'
+	                    ),
+	                    _react2.default.createElement(
+	                        'h1',
+	                        { className: 'cHeader' },
+	                        'educ',
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'letterA' },
+	                            'a'
+	                        ),
+	                        'tion'
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'p',
+	                    { className: this.block('description').mix("cParagraph") },
+	                    'We bring advanced technologies to the academic world. On the way to Create an unique technique for distinguishing and eliminating human speech defects and mispronunciations. It\'s a startup and we are moving forward every day.'
+	                )
+	            );
+	        }
+	    }]);
+
+	    return Info;
+	}(_react.Component);
+
+	exports.default = Info;
+
+/***/ },
+/* 296 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(297);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(13)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../../../node_modules/css-loader/index.js!./../../../../../node_modules/autoprefixer-loader/index.js?{browsers:[\"last 2 version\"]}!./../../../../../node_modules/less-loader/index.js!./Info.less", function() {
+				var newContent = require("!!./../../../../../node_modules/css-loader/index.js!./../../../../../node_modules/autoprefixer-loader/index.js?{browsers:[\"last 2 version\"]}!./../../../../../node_modules/less-loader/index.js!./Info.less");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 297 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(12)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".Info {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: column nowrap;\n      flex-flow: column nowrap;\n  -ms-flex-align: center;\n      align-items: center;\n  -ms-flex-pack: center;\n      justify-content: center;\n  height: 100%;\n  width: 100%;\n}\n.Info__header {\n  padding: 0 10px;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: row nowrap;\n      flex-flow: row nowrap;\n  -ms-flex-align: center;\n      align-items: center;\n}\n@media (max-width: 500px) and (orientation: portrait) {\n  .Info__header {\n    font-size: .6em;\n  }\n}\n.Info__header .logo {\n  width: 28px;\n  height: 28px;\n}\n@media (max-width: 500px) and (orientation: portrait) {\n  .Info__header .logo {\n    width: 20px;\n    height: 20px;\n  }\n}\n.Info__header .title {\n  padding-left: 13px;\n}\n.Info__header .title::first-letter {\n  color: #d23d40;\n}\n.Info__header .dot {\n  color: #d23d40;\n}\n.Info__header .letterA {\n  color: #d23d40;\n}\n.Info__description {\n  max-width: 500px;\n  text-align: justify;\n  padding: 0 20px;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 298 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -51162,7 +53150,7 @@
 	exports['default'] = thunk;
 
 /***/ },
-/* 289 */
+/* 299 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*! Moment Duration Format v1.3.0
@@ -51353,7 +53341,7 @@
 		var moment;
 
 		if (true) {
-			try { moment = __webpack_require__(290); } 
+			try { moment = __webpack_require__(300); } 
 			catch (e) {}
 		} 
 		
@@ -51650,7 +53638,7 @@
 
 
 /***/ },
-/* 290 */
+/* 300 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {//! moment.js
@@ -53416,7 +55404,7 @@
 	                module && module.exports) {
 	            try {
 	                oldLocale = globalLocale._abbr;
-	                __webpack_require__(291)("./" + name);
+	                __webpack_require__(301)("./" + name);
 	                // because defineLocale currently also sets the global locale, we
 	                // want to undo that for lazy loaded locales
 	                locale_locales__getSetGlobalLocale(oldLocale);
@@ -55851,212 +57839,212 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(276)(module)))
 
 /***/ },
-/* 291 */
+/* 301 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./af": 292,
-		"./af.js": 292,
-		"./ar": 293,
-		"./ar-ma": 294,
-		"./ar-ma.js": 294,
-		"./ar-sa": 295,
-		"./ar-sa.js": 295,
-		"./ar-tn": 296,
-		"./ar-tn.js": 296,
-		"./ar.js": 293,
-		"./az": 297,
-		"./az.js": 297,
-		"./be": 298,
-		"./be.js": 298,
-		"./bg": 299,
-		"./bg.js": 299,
-		"./bn": 300,
-		"./bn.js": 300,
-		"./bo": 301,
-		"./bo.js": 301,
-		"./br": 302,
-		"./br.js": 302,
-		"./bs": 303,
-		"./bs.js": 303,
-		"./ca": 304,
-		"./ca.js": 304,
-		"./cs": 305,
-		"./cs.js": 305,
-		"./cv": 306,
-		"./cv.js": 306,
-		"./cy": 307,
-		"./cy.js": 307,
-		"./da": 308,
-		"./da.js": 308,
-		"./de": 309,
-		"./de-at": 310,
-		"./de-at.js": 310,
-		"./de.js": 309,
-		"./dv": 311,
-		"./dv.js": 311,
-		"./el": 312,
-		"./el.js": 312,
-		"./en-au": 313,
-		"./en-au.js": 313,
-		"./en-ca": 314,
-		"./en-ca.js": 314,
-		"./en-gb": 315,
-		"./en-gb.js": 315,
-		"./en-ie": 316,
-		"./en-ie.js": 316,
-		"./en-nz": 317,
-		"./en-nz.js": 317,
-		"./eo": 318,
-		"./eo.js": 318,
-		"./es": 319,
-		"./es-do": 320,
-		"./es-do.js": 320,
-		"./es.js": 319,
-		"./et": 321,
-		"./et.js": 321,
-		"./eu": 322,
-		"./eu.js": 322,
-		"./fa": 323,
-		"./fa.js": 323,
-		"./fi": 324,
-		"./fi.js": 324,
-		"./fo": 325,
-		"./fo.js": 325,
-		"./fr": 326,
-		"./fr-ca": 327,
-		"./fr-ca.js": 327,
-		"./fr-ch": 328,
-		"./fr-ch.js": 328,
-		"./fr.js": 326,
-		"./fy": 329,
-		"./fy.js": 329,
-		"./gd": 330,
-		"./gd.js": 330,
-		"./gl": 331,
-		"./gl.js": 331,
-		"./he": 332,
-		"./he.js": 332,
-		"./hi": 333,
-		"./hi.js": 333,
-		"./hr": 334,
-		"./hr.js": 334,
-		"./hu": 335,
-		"./hu.js": 335,
-		"./hy-am": 336,
-		"./hy-am.js": 336,
-		"./id": 337,
-		"./id.js": 337,
-		"./is": 338,
-		"./is.js": 338,
-		"./it": 339,
-		"./it.js": 339,
-		"./ja": 340,
-		"./ja.js": 340,
-		"./jv": 341,
-		"./jv.js": 341,
-		"./ka": 342,
-		"./ka.js": 342,
-		"./kk": 343,
-		"./kk.js": 343,
-		"./km": 344,
-		"./km.js": 344,
-		"./ko": 345,
-		"./ko.js": 345,
-		"./ky": 346,
-		"./ky.js": 346,
-		"./lb": 347,
-		"./lb.js": 347,
-		"./lo": 348,
-		"./lo.js": 348,
-		"./lt": 349,
-		"./lt.js": 349,
-		"./lv": 350,
-		"./lv.js": 350,
-		"./me": 351,
-		"./me.js": 351,
-		"./mk": 352,
-		"./mk.js": 352,
-		"./ml": 353,
-		"./ml.js": 353,
-		"./mr": 354,
-		"./mr.js": 354,
-		"./ms": 355,
-		"./ms-my": 356,
-		"./ms-my.js": 356,
-		"./ms.js": 355,
-		"./my": 357,
-		"./my.js": 357,
-		"./nb": 358,
-		"./nb.js": 358,
-		"./ne": 359,
-		"./ne.js": 359,
-		"./nl": 360,
-		"./nl.js": 360,
-		"./nn": 361,
-		"./nn.js": 361,
-		"./pa-in": 362,
-		"./pa-in.js": 362,
-		"./pl": 363,
-		"./pl.js": 363,
-		"./pt": 364,
-		"./pt-br": 365,
-		"./pt-br.js": 365,
-		"./pt.js": 364,
-		"./ro": 366,
-		"./ro.js": 366,
-		"./ru": 367,
-		"./ru.js": 367,
-		"./se": 368,
-		"./se.js": 368,
-		"./si": 369,
-		"./si.js": 369,
-		"./sk": 370,
-		"./sk.js": 370,
-		"./sl": 371,
-		"./sl.js": 371,
-		"./sq": 372,
-		"./sq.js": 372,
-		"./sr": 373,
-		"./sr-cyrl": 374,
-		"./sr-cyrl.js": 374,
-		"./sr.js": 373,
-		"./ss": 375,
-		"./ss.js": 375,
-		"./sv": 376,
-		"./sv.js": 376,
-		"./sw": 377,
-		"./sw.js": 377,
-		"./ta": 378,
-		"./ta.js": 378,
-		"./te": 379,
-		"./te.js": 379,
-		"./th": 380,
-		"./th.js": 380,
-		"./tl-ph": 381,
-		"./tl-ph.js": 381,
-		"./tlh": 382,
-		"./tlh.js": 382,
-		"./tr": 383,
-		"./tr.js": 383,
-		"./tzl": 384,
-		"./tzl.js": 384,
-		"./tzm": 385,
-		"./tzm-latn": 386,
-		"./tzm-latn.js": 386,
-		"./tzm.js": 385,
-		"./uk": 387,
-		"./uk.js": 387,
-		"./uz": 388,
-		"./uz.js": 388,
-		"./vi": 389,
-		"./vi.js": 389,
-		"./x-pseudo": 390,
-		"./x-pseudo.js": 390,
-		"./zh-cn": 391,
-		"./zh-cn.js": 391,
-		"./zh-tw": 392,
-		"./zh-tw.js": 392
+		"./af": 302,
+		"./af.js": 302,
+		"./ar": 303,
+		"./ar-ma": 304,
+		"./ar-ma.js": 304,
+		"./ar-sa": 305,
+		"./ar-sa.js": 305,
+		"./ar-tn": 306,
+		"./ar-tn.js": 306,
+		"./ar.js": 303,
+		"./az": 307,
+		"./az.js": 307,
+		"./be": 308,
+		"./be.js": 308,
+		"./bg": 309,
+		"./bg.js": 309,
+		"./bn": 310,
+		"./bn.js": 310,
+		"./bo": 311,
+		"./bo.js": 311,
+		"./br": 312,
+		"./br.js": 312,
+		"./bs": 313,
+		"./bs.js": 313,
+		"./ca": 314,
+		"./ca.js": 314,
+		"./cs": 315,
+		"./cs.js": 315,
+		"./cv": 316,
+		"./cv.js": 316,
+		"./cy": 317,
+		"./cy.js": 317,
+		"./da": 318,
+		"./da.js": 318,
+		"./de": 319,
+		"./de-at": 320,
+		"./de-at.js": 320,
+		"./de.js": 319,
+		"./dv": 321,
+		"./dv.js": 321,
+		"./el": 322,
+		"./el.js": 322,
+		"./en-au": 323,
+		"./en-au.js": 323,
+		"./en-ca": 324,
+		"./en-ca.js": 324,
+		"./en-gb": 325,
+		"./en-gb.js": 325,
+		"./en-ie": 326,
+		"./en-ie.js": 326,
+		"./en-nz": 327,
+		"./en-nz.js": 327,
+		"./eo": 328,
+		"./eo.js": 328,
+		"./es": 329,
+		"./es-do": 330,
+		"./es-do.js": 330,
+		"./es.js": 329,
+		"./et": 331,
+		"./et.js": 331,
+		"./eu": 332,
+		"./eu.js": 332,
+		"./fa": 333,
+		"./fa.js": 333,
+		"./fi": 334,
+		"./fi.js": 334,
+		"./fo": 335,
+		"./fo.js": 335,
+		"./fr": 336,
+		"./fr-ca": 337,
+		"./fr-ca.js": 337,
+		"./fr-ch": 338,
+		"./fr-ch.js": 338,
+		"./fr.js": 336,
+		"./fy": 339,
+		"./fy.js": 339,
+		"./gd": 340,
+		"./gd.js": 340,
+		"./gl": 341,
+		"./gl.js": 341,
+		"./he": 342,
+		"./he.js": 342,
+		"./hi": 343,
+		"./hi.js": 343,
+		"./hr": 344,
+		"./hr.js": 344,
+		"./hu": 345,
+		"./hu.js": 345,
+		"./hy-am": 346,
+		"./hy-am.js": 346,
+		"./id": 347,
+		"./id.js": 347,
+		"./is": 348,
+		"./is.js": 348,
+		"./it": 349,
+		"./it.js": 349,
+		"./ja": 350,
+		"./ja.js": 350,
+		"./jv": 351,
+		"./jv.js": 351,
+		"./ka": 352,
+		"./ka.js": 352,
+		"./kk": 353,
+		"./kk.js": 353,
+		"./km": 354,
+		"./km.js": 354,
+		"./ko": 355,
+		"./ko.js": 355,
+		"./ky": 356,
+		"./ky.js": 356,
+		"./lb": 357,
+		"./lb.js": 357,
+		"./lo": 358,
+		"./lo.js": 358,
+		"./lt": 359,
+		"./lt.js": 359,
+		"./lv": 360,
+		"./lv.js": 360,
+		"./me": 361,
+		"./me.js": 361,
+		"./mk": 362,
+		"./mk.js": 362,
+		"./ml": 363,
+		"./ml.js": 363,
+		"./mr": 364,
+		"./mr.js": 364,
+		"./ms": 365,
+		"./ms-my": 366,
+		"./ms-my.js": 366,
+		"./ms.js": 365,
+		"./my": 367,
+		"./my.js": 367,
+		"./nb": 368,
+		"./nb.js": 368,
+		"./ne": 369,
+		"./ne.js": 369,
+		"./nl": 370,
+		"./nl.js": 370,
+		"./nn": 371,
+		"./nn.js": 371,
+		"./pa-in": 372,
+		"./pa-in.js": 372,
+		"./pl": 373,
+		"./pl.js": 373,
+		"./pt": 374,
+		"./pt-br": 375,
+		"./pt-br.js": 375,
+		"./pt.js": 374,
+		"./ro": 376,
+		"./ro.js": 376,
+		"./ru": 377,
+		"./ru.js": 377,
+		"./se": 378,
+		"./se.js": 378,
+		"./si": 379,
+		"./si.js": 379,
+		"./sk": 380,
+		"./sk.js": 380,
+		"./sl": 381,
+		"./sl.js": 381,
+		"./sq": 382,
+		"./sq.js": 382,
+		"./sr": 383,
+		"./sr-cyrl": 384,
+		"./sr-cyrl.js": 384,
+		"./sr.js": 383,
+		"./ss": 385,
+		"./ss.js": 385,
+		"./sv": 386,
+		"./sv.js": 386,
+		"./sw": 387,
+		"./sw.js": 387,
+		"./ta": 388,
+		"./ta.js": 388,
+		"./te": 389,
+		"./te.js": 389,
+		"./th": 390,
+		"./th.js": 390,
+		"./tl-ph": 391,
+		"./tl-ph.js": 391,
+		"./tlh": 392,
+		"./tlh.js": 392,
+		"./tr": 393,
+		"./tr.js": 393,
+		"./tzl": 394,
+		"./tzl.js": 394,
+		"./tzm": 395,
+		"./tzm-latn": 396,
+		"./tzm-latn.js": 396,
+		"./tzm.js": 395,
+		"./uk": 397,
+		"./uk.js": 397,
+		"./uz": 398,
+		"./uz.js": 398,
+		"./vi": 399,
+		"./vi.js": 399,
+		"./x-pseudo": 400,
+		"./x-pseudo.js": 400,
+		"./zh-cn": 401,
+		"./zh-cn.js": 401,
+		"./zh-tw": 402,
+		"./zh-tw.js": 402
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -56069,11 +58057,11 @@
 	};
 	webpackContext.resolve = webpackContextResolve;
 	module.exports = webpackContext;
-	webpackContext.id = 291;
+	webpackContext.id = 301;
 
 
 /***/ },
-/* 292 */
+/* 302 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56081,7 +58069,7 @@
 	//! author : Werner Mollentze : https://github.com/wernerm
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -56150,7 +58138,7 @@
 	}));
 
 /***/ },
-/* 293 */
+/* 303 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56160,7 +58148,7 @@
 	//! Native plural forms: forabi https://github.com/forabi
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -56291,7 +58279,7 @@
 	}));
 
 /***/ },
-/* 294 */
+/* 304 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56300,7 +58288,7 @@
 	//! author : Abdel Said : https://github.com/abdelsaid
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -56355,7 +58343,7 @@
 	}));
 
 /***/ },
-/* 295 */
+/* 305 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56363,7 +58351,7 @@
 	//! author : Suhail Alkowaileet : https://github.com/xsoh
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -56463,14 +58451,14 @@
 	}));
 
 /***/ },
-/* 296 */
+/* 306 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
 	//! locale  :  Arabic (Tunisia) [ar-tn]
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -56525,7 +58513,7 @@
 	}));
 
 /***/ },
-/* 297 */
+/* 307 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56533,7 +58521,7 @@
 	//! author : topchiyev : https://github.com/topchiyev
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -56634,7 +58622,7 @@
 	}));
 
 /***/ },
-/* 298 */
+/* 308 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56644,7 +58632,7 @@
 	//! Author : Menelion Elensúle : https://github.com/Oire
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -56772,7 +58760,7 @@
 	}));
 
 /***/ },
-/* 299 */
+/* 309 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56780,7 +58768,7 @@
 	//! author : Krasen Borisov : https://github.com/kraz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -56866,7 +58854,7 @@
 	}));
 
 /***/ },
-/* 300 */
+/* 310 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56874,7 +58862,7 @@
 	//! author : Kaushik Gandhi : https://github.com/kaushikgandhi
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -56989,7 +58977,7 @@
 	}));
 
 /***/ },
-/* 301 */
+/* 311 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56997,7 +58985,7 @@
 	//! author : Thupten N. Chakrishar : https://github.com/vajradog
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -57112,7 +59100,7 @@
 	}));
 
 /***/ },
-/* 302 */
+/* 312 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57120,7 +59108,7 @@
 	//! author : Jean-Baptiste Le Duigou : https://github.com/jbleduigou
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -57224,7 +59212,7 @@
 	}));
 
 /***/ },
-/* 303 */
+/* 313 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57233,7 +59221,7 @@
 	//! based on (hr) translation by Bojan Marković
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -57371,7 +59359,7 @@
 	}));
 
 /***/ },
-/* 304 */
+/* 314 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57379,7 +59367,7 @@
 	//! author : Juan G. Hurtado : https://github.com/juanghurtado
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -57456,7 +59444,7 @@
 	}));
 
 /***/ },
-/* 305 */
+/* 315 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57464,7 +59452,7 @@
 	//! author : petrbela : https://github.com/petrbela
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -57632,7 +59620,7 @@
 	}));
 
 /***/ },
-/* 306 */
+/* 316 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57640,7 +59628,7 @@
 	//! author : Anatoly Mironov : https://github.com/mirontoli
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -57699,7 +59687,7 @@
 	}));
 
 /***/ },
-/* 307 */
+/* 317 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57707,7 +59695,7 @@
 	//! author : Robert Allen
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -57783,7 +59771,7 @@
 	}));
 
 /***/ },
-/* 308 */
+/* 318 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57791,7 +59779,7 @@
 	//! author : Ulrik Nielsen : https://github.com/mrbase
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -57847,7 +59835,7 @@
 	}));
 
 /***/ },
-/* 309 */
+/* 319 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57857,7 +59845,7 @@
 	//! author : Mikolaj Dadela : https://github.com/mik01aj
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -57929,7 +59917,7 @@
 	}));
 
 /***/ },
-/* 310 */
+/* 320 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57940,7 +59928,7 @@
 	//! author : Mikolaj Dadela : https://github.com/mik01aj
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58012,7 +60000,7 @@
 	}));
 
 /***/ },
-/* 311 */
+/* 321 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58020,7 +60008,7 @@
 	//! author : Jawish Hameed : https://github.com/jawish
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58115,7 +60103,7 @@
 	}));
 
 /***/ },
-/* 312 */
+/* 322 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58123,7 +60111,7 @@
 	//! author : Aggelos Karalias : https://github.com/mehiel
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58217,14 +60205,14 @@
 	}));
 
 /***/ },
-/* 313 */
+/* 323 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
 	//! locale : English (Australia) [en-au]
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58287,7 +60275,7 @@
 	}));
 
 /***/ },
-/* 314 */
+/* 324 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58295,7 +60283,7 @@
 	//! author : Jonathan Abourbih : https://github.com/jonbca
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58354,7 +60342,7 @@
 	}));
 
 /***/ },
-/* 315 */
+/* 325 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58362,7 +60350,7 @@
 	//! author : Chris Gedrim : https://github.com/chrisgedrim
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58425,7 +60413,7 @@
 	}));
 
 /***/ },
-/* 316 */
+/* 326 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58433,7 +60421,7 @@
 	//! author : Chris Cartlidge : https://github.com/chriscartlidge
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58496,14 +60484,14 @@
 	}));
 
 /***/ },
-/* 317 */
+/* 327 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
 	//! locale : English (New Zealand) [en-nz]
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58566,7 +60554,7 @@
 	}));
 
 /***/ },
-/* 318 */
+/* 328 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58576,7 +60564,7 @@
 	//!          Se ne, bonvolu korekti kaj avizi min por ke mi povas lerni!
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58643,7 +60631,7 @@
 	}));
 
 /***/ },
-/* 319 */
+/* 329 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58651,7 +60639,7 @@
 	//! author : Julio Napurí : https://github.com/julionc
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58728,14 +60716,14 @@
 	}));
 
 /***/ },
-/* 320 */
+/* 330 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
 	//! locale : Spanish (Dominican Republic) [es-do]
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58812,7 +60800,7 @@
 	}));
 
 /***/ },
-/* 321 */
+/* 331 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58821,7 +60809,7 @@
 	//! improvements : Illimar Tambek : https://github.com/ragulka
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58896,7 +60884,7 @@
 	}));
 
 /***/ },
-/* 322 */
+/* 332 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58904,7 +60892,7 @@
 	//! author : Eneko Illarramendi : https://github.com/eillarra
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -58966,7 +60954,7 @@
 	}));
 
 /***/ },
-/* 323 */
+/* 333 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58974,7 +60962,7 @@
 	//! author : Ebrahim Byagowi : https://github.com/ebraminio
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -59076,7 +61064,7 @@
 	}));
 
 /***/ },
-/* 324 */
+/* 334 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -59084,7 +61072,7 @@
 	//! author : Tarmo Aidantausta : https://github.com/bleadof
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -59187,7 +61175,7 @@
 	}));
 
 /***/ },
-/* 325 */
+/* 335 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -59195,7 +61183,7 @@
 	//! author : Ragnar Johannesen : https://github.com/ragnar123
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -59251,7 +61239,7 @@
 	}));
 
 /***/ },
-/* 326 */
+/* 336 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -59259,7 +61247,7 @@
 	//! author : John Fischer : https://github.com/jfroffice
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -59319,7 +61307,7 @@
 	}));
 
 /***/ },
-/* 327 */
+/* 337 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -59327,7 +61315,7 @@
 	//! author : Jonathan Abourbih : https://github.com/jonbca
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -59383,7 +61371,7 @@
 	}));
 
 /***/ },
-/* 328 */
+/* 338 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -59391,7 +61379,7 @@
 	//! author : Gaspard Bucher : https://github.com/gaspard
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -59451,7 +61439,7 @@
 	}));
 
 /***/ },
-/* 329 */
+/* 339 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -59459,7 +61447,7 @@
 	//! author : Robin van der Vliet : https://github.com/robin0van0der0v
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -59528,7 +61516,7 @@
 	}));
 
 /***/ },
-/* 330 */
+/* 340 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -59536,7 +61524,7 @@
 	//! author : Jon Ashdown : https://github.com/jonashdown
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -59608,7 +61596,7 @@
 	}));
 
 /***/ },
-/* 331 */
+/* 341 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -59616,7 +61604,7 @@
 	//! author : Juan G. Hurtado : https://github.com/juanghurtado
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -59689,7 +61677,7 @@
 	}));
 
 /***/ },
-/* 332 */
+/* 342 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -59699,7 +61687,7 @@
 	//! author : Tal Ater : https://github.com/TalAter
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -59792,7 +61780,7 @@
 	}));
 
 /***/ },
-/* 333 */
+/* 343 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -59800,7 +61788,7 @@
 	//! author : Mayank Singhal : https://github.com/mayanksinghal
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -59920,7 +61908,7 @@
 	}));
 
 /***/ },
-/* 334 */
+/* 344 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -59928,7 +61916,7 @@
 	//! author : Bojan Marković : https://github.com/bmarkovic
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -60069,7 +62057,7 @@
 	}));
 
 /***/ },
-/* 335 */
+/* 345 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -60077,7 +62065,7 @@
 	//! author : Adam Brunner : https://github.com/adambrunner
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -60182,7 +62170,7 @@
 	}));
 
 /***/ },
-/* 336 */
+/* 346 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -60190,7 +62178,7 @@
 	//! author : Armendarabyan : https://github.com/armendarabyan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -60281,7 +62269,7 @@
 	}));
 
 /***/ },
-/* 337 */
+/* 347 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -60290,7 +62278,7 @@
 	//! reference: http://id.wikisource.org/wiki/Pedoman_Umum_Ejaan_Bahasa_Indonesia_yang_Disempurnakan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -60368,7 +62356,7 @@
 	}));
 
 /***/ },
-/* 338 */
+/* 348 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -60376,7 +62364,7 @@
 	//! author : Hinrik Örn Sigurðsson : https://github.com/hinrik
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -60499,7 +62487,7 @@
 	}));
 
 /***/ },
-/* 339 */
+/* 349 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -60508,7 +62496,7 @@
 	//! author: Mattia Larentis: https://github.com/nostalgiaz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -60573,7 +62561,7 @@
 	}));
 
 /***/ },
-/* 340 */
+/* 350 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -60581,7 +62569,7 @@
 	//! author : LI Long : https://github.com/baryon
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -60653,7 +62641,7 @@
 	}));
 
 /***/ },
-/* 341 */
+/* 351 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -60662,7 +62650,7 @@
 	//! reference: http://jv.wikipedia.org/wiki/Basa_Jawa
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -60740,7 +62728,7 @@
 	}));
 
 /***/ },
-/* 342 */
+/* 352 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -60748,7 +62736,7 @@
 	//! author : Irakli Janiashvili : https://github.com/irakli-janiashvili
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -60833,7 +62821,7 @@
 	}));
 
 /***/ },
-/* 343 */
+/* 353 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -60841,7 +62829,7 @@
 	//! authors : Nurlan Rakhimzhanov : https://github.com/nurlan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -60924,7 +62912,7 @@
 	}));
 
 /***/ },
-/* 344 */
+/* 354 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -60932,7 +62920,7 @@
 	//! author : Kruy Vanna : https://github.com/kruyvanna
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -60986,7 +62974,7 @@
 	}));
 
 /***/ },
-/* 345 */
+/* 355 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -60998,7 +62986,7 @@
 	//! - Jeeeyul Lee <jeeeyul@gmail.com>
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -61058,7 +63046,7 @@
 	}));
 
 /***/ },
-/* 346 */
+/* 356 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -61066,7 +63054,7 @@
 	//! author : Chyngyz Arystan uulu : https://github.com/chyngyz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -61150,7 +63138,7 @@
 	}));
 
 /***/ },
-/* 347 */
+/* 357 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -61158,7 +63146,7 @@
 	//! author : mweimerskirch : https://github.com/mweimerskirch, David Raison : https://github.com/kwisatz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -61290,7 +63278,7 @@
 	}));
 
 /***/ },
-/* 348 */
+/* 358 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -61298,7 +63286,7 @@
 	//! author : Ryan Hart : https://github.com/ryanhart2
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -61364,7 +63352,7 @@
 	}));
 
 /***/ },
-/* 349 */
+/* 359 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -61372,7 +63360,7 @@
 	//! author : Mindaugas Mozūras : https://github.com/mmozuras
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -61485,7 +63473,7 @@
 	}));
 
 /***/ },
-/* 350 */
+/* 360 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -61494,7 +63482,7 @@
 	//! author : Jānis Elmeris : https://github.com/JanisE
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -61586,7 +63574,7 @@
 	}));
 
 /***/ },
-/* 351 */
+/* 361 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -61594,7 +63582,7 @@
 	//! author : Miodrag Nikač <miodrag@restartit.me> : https://github.com/miodragnikac
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -61701,7 +63689,7 @@
 	}));
 
 /***/ },
-/* 352 */
+/* 362 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -61709,7 +63697,7 @@
 	//! author : Borislav Mickov : https://github.com/B0k0
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -61795,7 +63783,7 @@
 	}));
 
 /***/ },
-/* 353 */
+/* 363 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -61803,7 +63791,7 @@
 	//! author : Floyd Pink : https://github.com/floydpink
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -61880,7 +63868,7 @@
 	}));
 
 /***/ },
-/* 354 */
+/* 364 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -61889,7 +63877,7 @@
 	//! author : Vivek Athalye : https://github.com/vnathalye
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -62043,7 +64031,7 @@
 	}));
 
 /***/ },
-/* 355 */
+/* 365 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -62051,7 +64039,7 @@
 	//! author : Weldan Jamili : https://github.com/weldan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -62129,7 +64117,7 @@
 	}));
 
 /***/ },
-/* 356 */
+/* 366 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -62138,7 +64126,7 @@
 	//! author : Weldan Jamili : https://github.com/weldan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -62216,7 +64204,7 @@
 	}));
 
 /***/ },
-/* 357 */
+/* 367 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -62224,7 +64212,7 @@
 	//! author : Squar team, mysquar.com
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -62313,7 +64301,7 @@
 	}));
 
 /***/ },
-/* 358 */
+/* 368 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -62322,7 +64310,7 @@
 	//!           Sigurd Gartmann : https://github.com/sigurdga
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -62380,7 +64368,7 @@
 	}));
 
 /***/ },
-/* 359 */
+/* 369 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -62388,7 +64376,7 @@
 	//! author : suvash : https://github.com/suvash
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -62507,7 +64495,7 @@
 	}));
 
 /***/ },
-/* 360 */
+/* 370 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -62515,7 +64503,7 @@
 	//! author : Joris Röling : https://github.com/jjupiter
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -62584,7 +64572,7 @@
 	}));
 
 /***/ },
-/* 361 */
+/* 371 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -62592,7 +64580,7 @@
 	//! author : https://github.com/mechuwind
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -62648,7 +64636,7 @@
 	}));
 
 /***/ },
-/* 362 */
+/* 372 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -62656,7 +64644,7 @@
 	//! author : Harpreet Singh : https://github.com/harpreetkhalsagtbit
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -62776,7 +64764,7 @@
 	}));
 
 /***/ },
-/* 363 */
+/* 373 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -62784,7 +64772,7 @@
 	//! author : Rafal Hirsz : https://github.com/evoL
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -62885,7 +64873,7 @@
 	}));
 
 /***/ },
-/* 364 */
+/* 374 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -62893,7 +64881,7 @@
 	//! author : Jefferson : https://github.com/jalex79
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -62954,7 +64942,7 @@
 	}));
 
 /***/ },
-/* 365 */
+/* 375 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -62962,7 +64950,7 @@
 	//! author : Caio Ribeiro Pereira : https://github.com/caio-ribeiro-pereira
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -63019,7 +65007,7 @@
 	}));
 
 /***/ },
-/* 366 */
+/* 376 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -63028,7 +65016,7 @@
 	//! author : Valentin Agachi : https://github.com/avaly
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -63098,7 +65086,7 @@
 	}));
 
 /***/ },
-/* 367 */
+/* 377 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -63108,7 +65096,7 @@
 	//! author : Коренберг Марк : https://github.com/socketpair
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -63285,7 +65273,7 @@
 	}));
 
 /***/ },
-/* 368 */
+/* 378 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -63293,7 +65281,7 @@
 	//! authors : Bård Rolstad Henriksen : https://github.com/karamell
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -63350,7 +65338,7 @@
 	}));
 
 /***/ },
-/* 369 */
+/* 379 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -63358,7 +65346,7 @@
 	//! author : Sampath Sitinamaluwa : https://github.com/sampathsris
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -63425,7 +65413,7 @@
 	}));
 
 /***/ },
-/* 370 */
+/* 380 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -63434,7 +65422,7 @@
 	//! based on work of petrbela : https://github.com/petrbela
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -63579,7 +65567,7 @@
 	}));
 
 /***/ },
-/* 371 */
+/* 381 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -63587,7 +65575,7 @@
 	//! author : Robert Sedovšek : https://github.com/sedovsek
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -63745,7 +65733,7 @@
 	}));
 
 /***/ },
-/* 372 */
+/* 382 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -63755,7 +65743,7 @@
 	//! author : Oerd Cukalla : https://github.com/oerd (fixes)
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -63819,7 +65807,7 @@
 	}));
 
 /***/ },
-/* 373 */
+/* 383 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -63827,7 +65815,7 @@
 	//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -63933,7 +65921,7 @@
 	}));
 
 /***/ },
-/* 374 */
+/* 384 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -63941,7 +65929,7 @@
 	//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -64047,7 +66035,7 @@
 	}));
 
 /***/ },
-/* 375 */
+/* 385 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -64055,7 +66043,7 @@
 	//! author : Nicolai Davies<mail@nicolai.io> : https://github.com/nicolaidavies
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -64140,7 +66128,7 @@
 	}));
 
 /***/ },
-/* 376 */
+/* 386 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -64148,7 +66136,7 @@
 	//! author : Jens Alm : https://github.com/ulmus
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -64213,7 +66201,7 @@
 	}));
 
 /***/ },
-/* 377 */
+/* 387 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -64221,7 +66209,7 @@
 	//! author : Fahad Kassim : https://github.com/fadsel
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -64276,7 +66264,7 @@
 	}));
 
 /***/ },
-/* 378 */
+/* 388 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -64284,7 +66272,7 @@
 	//! author : Arjunkumar Krishnamoorthy : https://github.com/tk120404
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -64409,7 +66397,7 @@
 	}));
 
 /***/ },
-/* 379 */
+/* 389 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -64417,7 +66405,7 @@
 	//! author : Krishna Chaitanya Thota : https://github.com/kcthota
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -64502,7 +66490,7 @@
 	}));
 
 /***/ },
-/* 380 */
+/* 390 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -64510,7 +66498,7 @@
 	//! author : Kridsada Thanabulpong : https://github.com/sirn
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -64573,7 +66561,7 @@
 	}));
 
 /***/ },
-/* 381 */
+/* 391 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -64581,7 +66569,7 @@
 	//! author : Dan Hagman
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -64639,7 +66627,7 @@
 	}));
 
 /***/ },
-/* 382 */
+/* 392 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -64647,7 +66635,7 @@
 	//! author : Dominika Kruk : https://github.com/amaranthrose
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -64763,7 +66751,7 @@
 	}));
 
 /***/ },
-/* 383 */
+/* 393 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -64772,7 +66760,7 @@
 	//!           Burak Yiğit Kaya: https://github.com/BYK
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -64857,7 +66845,7 @@
 	}));
 
 /***/ },
-/* 384 */
+/* 394 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -64865,7 +66853,7 @@
 	//! author : Robin van der Vliet : https://github.com/robin0van0der0v with the help of Iustì Canun
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -64952,7 +66940,7 @@
 	}));
 
 /***/ },
-/* 385 */
+/* 395 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -64960,7 +66948,7 @@
 	//! author : Abdel Said : https://github.com/abdelsaid
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -65014,7 +67002,7 @@
 	}));
 
 /***/ },
-/* 386 */
+/* 396 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -65022,7 +67010,7 @@
 	//! author : Abdel Said : https://github.com/abdelsaid
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -65076,7 +67064,7 @@
 	}));
 
 /***/ },
-/* 387 */
+/* 397 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -65085,7 +67073,7 @@
 	//! Author : Menelion Elensúle : https://github.com/Oire
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -65226,7 +67214,7 @@
 	}));
 
 /***/ },
-/* 388 */
+/* 398 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -65234,7 +67222,7 @@
 	//! author : Sardor Muminov : https://github.com/muminoff
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -65288,7 +67276,7 @@
 	}));
 
 /***/ },
-/* 389 */
+/* 399 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -65296,7 +67284,7 @@
 	//! author : Bang Nguyen : https://github.com/bangnk
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -65371,7 +67359,7 @@
 	}));
 
 /***/ },
-/* 390 */
+/* 400 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -65379,7 +67367,7 @@
 	//! author : Andrew Hood : https://github.com/andrewhood125
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -65443,7 +67431,7 @@
 	}));
 
 /***/ },
-/* 391 */
+/* 401 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -65452,7 +67440,7 @@
 	//! author : Zeno Zeng : https://github.com/zenozeng
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -65574,7 +67562,7 @@
 	}));
 
 /***/ },
-/* 392 */
+/* 402 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -65583,7 +67571,7 @@
 	//! author : Chris Lam : https://github.com/hehachris
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(290)) :
+	    true ? factory(__webpack_require__(300)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
@@ -65682,10 +67670,10 @@
 	}));
 
 /***/ },
-/* 393 */
+/* 403 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var __WEBPACK_AMD_DEFINE_RESULT__;var require;/* WEBPACK VAR INJECTION */(function(global, module) {/*!
+	var require;var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(global, module) {/*!
 	 * @overview es6-promise - a tiny implementation of Promises/A+.
 	 * @copyright Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
 	 * @license   Licensed under MIT license
@@ -65815,7 +67803,7 @@
 	    function lib$es6$promise$asap$$attemptVertx() {
 	      try {
 	        var r = require;
-	        var vertx = __webpack_require__(394);
+	        var vertx = __webpack_require__(404);
 	        lib$es6$promise$asap$$vertxNext = vertx.runOnLoop || vertx.runOnContext;
 	        return lib$es6$promise$asap$$useVertxTimer();
 	      } catch(e) {
@@ -66633,7 +68621,7 @@
 	    };
 
 	    /* global define:true module:true window: true */
-	    if ("function" === 'function' && __webpack_require__(395)['amd']) {
+	    if ("function" === 'function' && __webpack_require__(405)['amd']) {
 	      !(__WEBPACK_AMD_DEFINE_RESULT__ = function() { return lib$es6$promise$umd$$ES6Promise; }.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	    } else if (typeof module !== 'undefined' && module['exports']) {
 	      module['exports'] = lib$es6$promise$umd$$ES6Promise;
@@ -66648,13 +68636,13 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(276)(module)))
 
 /***/ },
-/* 394 */
+/* 404 */
 /***/ function(module, exports) {
 
 	/* (ignored) */
 
 /***/ },
-/* 395 */
+/* 405 */
 /***/ function(module, exports) {
 
 	module.exports = function() { throw new Error("define cannot be used indirect"); };
