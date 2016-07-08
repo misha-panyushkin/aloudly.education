@@ -1,0 +1,1 @@
+export AppReducer from './App.reducer'

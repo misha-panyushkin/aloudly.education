@@ -1,0 +1,11 @@
+nginx:
+    image: mpanyushkin/aloudly.education:nginx
+    links:
+        - web:web
+    ports:
+        - "80:80"
+
+web:
+    image: mpanyushkin/aloudly.education:web
+    ports:
+        - "8080"

@@ -1,0 +1,14 @@
+nginx:
+    build: ./nginx
+    links:
+        - web:web
+    ports:
+        - "80:80"
+
+web:
+    build: ./web    
+    ports:
+        - "8080"
+    volumes:
+        - ./web:/usr/src/app
+    command: npm run nodemon

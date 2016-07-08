@@ -1,0 +1,70 @@
+{
+  "name": "aloudly.education",
+  "version": "1.0.0",
+  "description": "We are bringing cutting edge technology to the academic world. Creating an unique technique for distinguish and eliminating human mispronunciations. It's a startup and we are moving forward every day.",
+  "main": "app.js",
+  "homepage": "http://aloudly.education/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/misha-panyushkin/aloudly.education"
+  },
+  "keywords": [
+    "aloudly",
+    "education"
+  ],
+  "author": "Misha Panyushkin <misha.panyushkin@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/misha-panyushkin/aloudly.education/issues"
+  },
+  "contributors": [
+    {
+      "name": "Misha Panyushkin",
+      "email": "misha.panyushkin@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": ">= 6.2.0"
+  },
+  "dependencies": {
+    "bem-cn": "^1.3.1",
+    "classnames": "^2.2.5",
+    "compression": "^1.6.2",
+    "es6-promise": "^3.2.1",
+    "express": "^4.13.4",
+    "immutable": "^3.8.1",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.12.0",
+    "moment": "^2.13.0",
+    "moment-duration-format": "^1.3.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "react-router-redux": "^4.0.4",
+    "react-tap-event-plugin": "^1.0.0",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0"
+  },
+  "scripts": {
+    "nodemon": "nodemon -L app.js",
+    "build": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development webpack --colors --watch --progress",
+    "prod": "NODE_ENV=production webpack --colors --progress && NODE_ENV=production node --harmony app.js"
+  }
+}
