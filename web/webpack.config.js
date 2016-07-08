@@ -3,6 +3,7 @@ var webpack = require('webpack');
 
 module.exports = {
     entry: [
+        'babel-polyfill',
         './public/entry.js'
     ],
     output: {
@@ -17,7 +18,7 @@ module.exports = {
             { 
                 test: /\.less$/, 
                 exclude: /node_modules/, 
-                loader: 'style-loader!css-loader!autoprefixer-loader?{browsers:["last 2 version"]}!less-loader' 
+                loader: 'style-loader!css-loader!autoprefixer-loader?{browsers:["last 3 iOS versions", "> 1%"]}!less-loader' 
             },
             { 
                 test: /\.js$/, 
@@ -25,7 +26,7 @@ module.exports = {
                 exclude: /node_modules/, 
                 include: path.join(__dirname, 'public'),
                 query: {
-                    presets: ['stage-0', 'es2015', 'react'],
+                    presets: ['stage-0', 'es2015', 'es2016', 'react'],
                     plugins: ['transform-decorators-legacy']
                 }
             }
